@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="276" viewBox="0 0 550 276" fill="none">
+  <path opacity="0.3" d="M151 276C151 242.848 164.169 211.054 187.612 187.612C211.054 164.17 242.848 151 276 151C309.152 151 340.946 164.17 364.388 187.612C387.83 211.054 401 242.848 401 276M75.9999 276C75.9999 222.957 97.0713 172.086 134.579 134.579C172.086 97.0713 222.957 76 276 76C329.043 76 379.914 97.0713 417.421 134.579C454.929 172.086 476 222.957 476 276M1 276C1.00001 203.065 29.9732 133.118 81.5456 81.5456C133.118 29.9731 203.065 1.00002 276 1C348.934 1.00001 418.882 29.9731 470.454 81.5456C522.027 133.118 551 203.065 551 276" stroke="url(#paint0_linear_57_10203)" style=""/>
+  <defs>
+    <linearGradient id="paint0_linear_57_10203" x1="276" y1="36" x2="276" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" style="stop-color:white;stop-opacity:1;"/>
+      <stop offset="0.433105" stop-color="#96B6FF" style="stop-color:#96B6FF;stop-color:color(display-p3 0.5892 0.7124 1.0000);stop-opacity:1;"/>
+      <stop offset="0.69" stop-color="#2359D6" style="stop-color:#2359D6;stop-color:color(display-p3 0.1367 0.3472 0.8385);stop-opacity:1;"/>
+      <stop offset="1" stop-color="#0748E1" style="stop-color:#0748E1;stop-color:color(display-p3 0.0267 0.2831 0.8812);stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+</svg>
