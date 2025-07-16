@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from blockscan.com/eaas by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:37:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="faviconbbe8.ico?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16bbe8.png?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32bbe8.png?v=1.1.9315.20952">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-iconbbe8.png?v=1.1.9315.20952">
+
+  
+    <title>Explorer as a Service | Blockscan Multichain Explorer</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="index.html" />
+    <meta property="og:title" content="Explorer as a Service | Blockscan Multichain Explorer" />
+    <meta property="og:description" content="Partner with the infrastructure trusted by leading chains. Our scalable, reliable block explorer solution helps your ecosystem deliver transparent, accessible on-chain data—built for developers, builders and users alike." />
+  <meta property="og:image" content="assets/img/og-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="index.html" />
+    <meta property="twitter:title" content="Explorer as a Service | Blockscan Multichain Explorer" />
+    <meta property="twitter:description" content="Partner with the infrastructure trusted by leading chains. Our scalable, reliable block explorer solution helps your ecosystem deliver transparent, accessible on-chain data—built for developers, builders and users alike." />
+  <meta property="twitter:image" content="assets/img/og-preview.jpg" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5525RMQQCR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-5525RMQQCR');
+    </script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&amp;display=swap&amp;v=1.1.9315.20952" rel="stylesheet">
+
+  <!-- CSS Plugins -->
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/hs-mega-menu/dist/hs-mega-menu.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/datatables/css/dataTables.bootstrap5bbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/autocomplete/dist/css/autocomplete.minbbe8.css?v=1.1.9315.20952" />
+
+  <!-- CSS Theme -->
+  <link rel="stylesheet" href="assets/css/theme.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/rainbowkit/rainbowkitbbe8.css?v=1.1.9315.20952">
+  <!-- JS -->
+  <script src="assets/js/theme-appearancebbe8.js?v=1.1.9315.20952"></script>
+  <link rel="stylesheet" href="appbbe8.css?v=1.1.9315.20952" />
+  
+  <style>
+    [data-bs-theme="light"] body {
+      --bs-main-content-linear-gradient-from: #e8edff;
+      --bs-main-content-linear-gradient-to: 246, 247, 248;
+      background-image: linear-gradient(var(--bs-main-content-linear-gradient-from) 0%, rgba(var(--bs-main-content-linear-gradient-to), 0) 35rem);
+    }
+    [data-bs-theme="dim"] body,
+    [data-bs-theme="dark"] body {
+      --bs-main-content-linear-gradient-from: #33393f;
+      --bs-main-content-linear-gradient-to: 35, 39, 42;
+      background-image: linear-gradient(var(--bs-main-content-linear-gradient-from) 0%, rgba(var(--bs-main-content-linear-gradient-to), 0) 35rem);
+    }
+
+
+    /* Gradient Card */
+    [data-bs-theme=light] .bg-gradient-card {
+      --bs-gradient-card-linear-gradient-from: #f2f6ff;
+      --bs-gradient-card-linear-gradient-to: 255, 255, 255;
+      background-image: linear-gradient(var(--bs-gradient-card-linear-gradient-from) 0%, rgba(var(--bs-gradient-card-linear-gradient-to), 0) 5rem);
+    }
+
+    [data-bs-theme=dim] .bg-gradient-card,
+    [data-bs-theme=dark] .bg-gradient-card {
+      --bs-gradient-card-linear-gradient-from: #252a33;
+      --bs-gradient-card-linear-gradient-to: 255, 255, 255;
+      background-image: linear-gradient(var(--bs-gradient-card-linear-gradient-from) 0%, rgba(var(--bs-gradient-card-linear-gradient-to), 0) 5rem);
+    }
+
+    /* Orbiting Chains */
+    .orbit-container::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60%;
+      background: linear-gradient(to bottom, var(--bs-card-gradient-from) 0%, var(--bs-body-bg) 100%);
+      pointer-events: none;
+    }
+
+    .card-gradient::after {
+      content: "";
+      position: absolute;
+      bottom: -6rem;
+      left: 0;
+      width: 100%;
+      height: 60%;
+      background: linear-gradient(to bottom, var(--bs-card-gradient-from) 0%, var(--bs-card-gradient-to) 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    ul[class^=ring] {
+      transition: all 300ms ease-in-out;
+    }
+
+    ul[class^=ring] li {
+      transition: all 300ms ease-in-out;
+    }
+
+    ul[class^=ring] {
+      padding: 0;
+      border-radius: 50%;
+      list-style: none;
+      box-sizing: content-box;
+    }
+
+    ul[class^=ring] li {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    .ring-1 {
+      width: 38.2em;
+      height: 38.2em;
+      -webkit-animation: clockwiseRotate 25s linear infinite; 
+              animation: clockwiseRotate 25s linear infinite;
+    }
+
+    .ring-1 div.orbit-icon {
+      -webkit-animation: counterClockwiseRotate 25s linear infinite;
+              animation: counterClockwiseRotate 25s linear infinite;
+    }
+
+    .ring-2 {
+      width: 28em;
+      height: 28em;
+      -webkit-animation: clockwiseRotate 30s linear infinite;
+              animation: clockwiseRotate 30s linear infinite;
+    }
+
+    .ring-2 div.orbit-icon {
+      -webkit-animation: counterClockwiseRotate 30s linear infinite;
+              animation: counterClockwiseRotate 30s linear infinite;
+    }
+
+    .ring-3 {
+      width: 17.5em;
+      height: 17.5em;
+      -webkit-animation: clockwiseRotate 35s linear infinite;
+              animation: clockwiseRotate 35s linear infinite;
+    }
+
+    .ring-3 div.orbit-icon {
+      -webkit-animation: counterClockwiseRotate 35s linear infinite;
+              animation: counterClockwiseRotate 35s linear infinite;
+    }
+
+    @-webkit-keyframes clockwiseRotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes clockwiseRotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @-webkit-keyframes counterClockwiseRotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+
+    @keyframes counterClockwiseRotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+  </style>
+
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <div class="d-flex flex-column min-vh-100">
+
+    <header class="d-print-none js-sticky-header sticky-top bg-opacity-75 filter-blur py-0.5 ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+        <div class="container-xxl position-relative  gap-3 column-gap-12  ">
+          <a class="navbar-brand  position-relative" href="index.html">
+            <img width="150" data-img-theme="light" src="assets/svg/logobbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+            <img width="150" data-img-theme="darkmode" src="assets/svg/logo-lightbbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+
+            <span class="fs-sm">
+              <span class="position-absolute top-0 z-1 ms-1.5 translate-middle badge fw-medium small rounded-pill bg-danger text-white px-1.5" style="right: -3rem;">Beta</span>
+            </span>
+          </a>
+
+          <div class="d-flex justify-content-end align-items-center order-lg-3  gap-2">  
+              <div class="dropdown">
+                <span data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-original-title="Group">
+                  <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center position-relative" type="button" id="buttonMenuTopbarBundle" style="width: 2.375rem; height: 2.375rem;">
+                    <i class="far fa-folder-bookmark"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 bg-primary border border-light rounded-circle">
+                      <span class="visually-hidden">New alerts</span>
+                    </span>
+                  </button>
+                </span>
+                <div class="dropdown-menu dropdown-menu-end" style="min-width: 14rem;" id="dropdownMenuTopbarBundle" aria-labelledby="dropdownMenuTopbarBundle">
+                  <div class="d-flex align-items-center gap-2 py-1 px-3 mb-0.5">
+                    <div class="fw-medium">My Group List</div>
+                    <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                  </div>
+
+                  <ul id="bundleUnlist" class="list-unstyled overflow-y-auto scrollbar-custom mb-0" style="max-height: 15rem;" data-max-items="5">
+                  </ul>
+
+                  <hr class="my-1.5">
+
+                  <div id="bundleCreateJs"></div>
+                </div>
+              </div>
+
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 text-primary content-center" type="button" id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Theme" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                <li>
+                  <button type="button" class="dropdown-item active" data-bs-theme-value="light">
+                    <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dim">
+                    <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dark">
+                    <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Features" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-grid-2"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks" style="min-width: 15rem;">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://chat.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-message-lines"></i> Blockscan Chat
+                  </a>
+                </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="ecosystems.html">
+                      <i class="far fa-circle-nodes"></i> Ecosystems <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="cross-chain.html">
+                      <i class="far fa-archway"></i> Cross-Chain Transaction <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="headlines.html">
+                      <i class="far fa-newspaper"></i> Headlines
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="charts.html">
+                      <i class="far fa-chart-pie-simple"></i> Multichain Charts
+                    </a>
+                  </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://vscode.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-code"></i> VSCode IDE
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="brand-guidelines.html">
+                    <i class="far fa-shapes"></i> Brand Guidelines
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 group" href="feedback.html">
+                    <i class="far fa-comment-smile"></i> Share Feedback
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="app-landing.html">
+                    <i class="far fa-mobile"></i> Blockscan Mobile App
+                  </a>
+                </li>
+
+                <li>
+                  <hr class="my-0">
+                </li>
+
+                <li class="d-flex flex-wrap gap-1.5 pt-2 pb-1 px-2">
+                  <a class="fs-sm link-muted" href="https://twitter.com/BlockscanHQ" rel="nofollow" target="_blank">X (Twitter)</a>
+                  <span class="text-muted">•</span>
+                  <a class="fs-sm link-muted" href="contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+<form action="https://blockscan.com/Home/SearchAddress" class="search-panel-container position-relative auto-search-max-height bg-white border border-dark dark:border-white border-opacity-15 rounded-4 d-flex align-items-center order-lg-2 gap-2 w-100 w-lg-max-640" method="get">              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="fa-regular fa-search text-muted"></i>
+              </span>
+              <div class="flex-grow-1">
+                <label for="search-panel" class="visually-hidden">Search</label>
+                <input id="search-panel" name="searchAddress" type="text" class="form-control form-control-lg fs-default border-0 focus-shadow-0 rounded-pill pe-8 pe-md-16" placeholder="Search by Address, Transaction, Token" autocomplete="off" style="padding-inline: 2rem;">
+              </div>
+              <span class="shortcut-slash-icon align-items-center position-absolute top-0 bottom-0 align-items-center d-none d-sm-flex" title="Search" style="right: 0.5rem;">
+                <kbd class="bg-secondary bg-opacity-25 fw-semibold px-2 py-0.5 text-dark text-opacity-50">/</kbd>
+              </span>
+              <div class="d-flex align-items-center position-absolute top-0 bottom-0" style="right: 0.5rem;">
+                <span class="clear-icon d-none d-flex align-items-center my-auto me-1" title="Search" style="cursor:pointer;">
+                  <i class="fa-regular fa-xmark fs-5 text-secondary hover:text-muted"></i>
+                </span>
+
+                <span class="search-icon d-none btn btn-sm btn-secondary content-center my-auto ms-2" title="Search" style="right: 0.5rem; width: 1.5rem; height: 1.5rem; cursor: pointer;">
+                  <i class="fa-regular fa-arrow-turn-down-left text-muted"></i>
+                </span>
+              </div>
+</form>        </div>
+      </nav>
+
+    </header>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+    </div>
+    
+
+
+<!-- ========== MAIN CONTENT ========== -->
+<main id="main" class="content-center my-auto" style="min-height: 100%;" role="main">
+  <section class="container-xxl py-8 pb-14">
+    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+      <div class="text-center px-xxl-10 mt-10 mb-6">
+        <h1 class="h3 fw-semibold mb-2">Explorer as a Service</h1>
+        <p class="fs-default">Partner with the infrastructure trusted by leading chains. Our scalable, reliable block explorer solution helps your ecosystem deliver transparent, accessible on-chain data—built for developers, builders and users alike.</p>
+
+        <a class="btn btn-sm btn-primary rounded-pill p-2 px-3" target="_blank" href="https://etherscan.io/eaas">
+          Contact Us <i class="far fa-arrow-up-right ms-1"></i>
+        </a>
+      </div>
+
+      <!-- Orbiting Chains -->
+      <section class="orbit-container position-relative mt-8 overflow-hidden" style="height: 20.5rem;">
+        <div class="position-absolute start-50 top-50 translate-middle">
+          <img width="550" data-img-theme="light" src="assets/svg/app-landing/orbit.svg" alt="Orbit Svg" />
+          <img width="550" data-img-theme="darkmode" src="assets/svg/app-landing/orbit-dark.svg" alt="Orbit Svg" />
+        </div>
+
+        <div class="position-absolute start-0 end-0" style="top: 18.5rem;">
+          <ul class="list-unstyled">
+            <li class="position-absolute start-50 top-50 translate-middle">
+              <ul class="ring-1 list-unstyled">
+                <li style="transform: rotate(0deg) translate(17.5em) rotate(0deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/zksync.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(90deg) translate(17.5em) rotate(-90deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/bsc.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(180deg) translate(20.5em) rotate(-180deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/op.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(270deg) translate(20.5em) rotate(-270deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/sol.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="position-absolute start-50 top-50 translate-middle">
+              <ul class="ring-2 list-unstyled">
+                <li style="transform: rotate(60deg) translate(11.5em) rotate(-60deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/arb.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(150deg) translate(14.5em) rotate(-150deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/base.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(240deg) translate(16em) rotate(-240deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/blast.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(330deg) translate(13em) rotate(-330deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/avax.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="position-absolute start-50 top-50 translate-middle">
+              <ul class="ring-3 list-unstyled">
+                <li style="transform: rotate(0deg) translate(7em) rotate(-0deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/taiko.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(140deg) translate(8.5em) rotate(-140deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/ape.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+
+                <li style="transform: rotate(240deg) translate(11em) rotate(-240deg);">
+                  <div class="orbit-icon">
+                    <div class="border bg-light rounded content-center" style="width: 3rem; height: 3rem;">
+                      <img width="28" src="assets/svg/chain-logos/eth.svg" alt="Chain">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="position-absolute start-50 translate-middle" style="top: 20rem;">
+          <img data-img-theme="light" style="width: 50rem;" src="assets/svg/app-landing/gradient-blur-1st-row.svg" alt="">
+          <img data-img-theme="darkmode" style="width: 50rem;" src="assets/svg/app-landing/gradient-blur-1st-row-dark.svg" alt="">
+        </div>
+      </section>
+      <!-- End Orbiting Chains -->
+
+      <section class="mb-12 px-xxl-24">
+        <div class="card shadow-none bg-gradient-card p-5">
+          <div class="row text-center">
+            <div class="col-6">
+              <div class="fs-2">30+</div>
+              <span class="small text-muted">Block Explorers</span>
+            </div>
+
+            <div class="col-6 border-start">
+              <div class="fs-2">200M</div>
+              <span class="small text-muted">Users Worldwide</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Icon Blocks -->
+      <section class="mb-8">
+        <div class="text-center mb-6">
+          <h2 class="fs-4 mb-2">Key Features</h2>
+          <p class="fs-default">Powerful capabilities for a complete, production-ready block explorer experience.</p>
+        </div>
+
+        <div class="row g-4 pb-5">
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M164.6 175.5l96-160C266.3 5.9 276.8 0 288 0s21.7 5.9 27.4 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2H192c-11.5 0-22.2-6.2-27.8-16.2s-5.5-22.3 .4-32.2zM288 63.1L220.3 176H355.7L288 63.1zM464 320H336V448H464V320zM328 272H472c22.1 0 40 17.9 40 40V456c0 22.1-17.9 40-40 40H328c-22.1 0-40-17.9-40-40V312c0-22.1 17.9-40 40-40zM208 384A80 80 0 1 0 48 384a80 80 0 1 0 160 0zM0 384a128 128 0 1 1 256 0A128 128 0 1 1 0 384z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">Comprehensive Block Explorer</h3>
+                <p class="mb-0">A fast, reliable interface for browsing blocks, transactions, addresses, tokens, and internal operations—optimized for clarity and accessibility.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M354.9 121.7c13.8 16 36.5 21.1 55.9 12.5c8.9-3.9 18.7-6.2 29.2-6.2c39.8 0 72 32.2 72 72c0 4-.3 7.9-.9 11.7c-3.5 21.6 8.1 42.9 28.1 51.7C570.4 276.9 592 308 592 344c0 46.8-36.6 85.2-82.8 87.8c-.6 0-1.3 .1-1.9 .2H504 144c-53 0-96-43-96-96c0-41.7 26.6-77.3 64-90.5c19.2-6.8 32-24.9 32-45.3l0-.2v0 0c0-66.3 53.7-120 120-120c36.3 0 68.8 16.1 90.9 41.7zM512 480v-.2c71.4-4.1 128-63.3 128-135.8c0-55.7-33.5-103.7-81.5-124.7c1-6.3 1.5-12.8 1.5-19.3c0-66.3-53.7-120-120-120c-17.4 0-33.8 3.7-48.7 10.3C360.4 54.6 314.9 32 264 32C171.2 32 96 107.2 96 200l0 .2C40.1 220 0 273.3 0 336c0 79.5 64.5 144 144 144H464h40 8zM176 216v16c0 22.1 17.9 40 40 40h16c22.1 0 40-17.9 40-40V216c0-22.1-17.9-40-40-40H216c-22.1 0-40 17.9-40 40zm40-8h16c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H216c-4.4 0-8-3.6-8-8V216c0-4.4 3.6-8 8-8zm72-16c0 8.8 7.2 16 16 16v48c0 8.8 7.2 16 16 16s16-7.2 16-16V192c0-8.8-7.2-16-16-16H304c-8.8 0-16 7.2-16 16zm120-16c-22.1 0-40 17.9-40 40v16c0 22.1 17.9 40 40 40h16c22.1 0 40-17.9 40-40V216c0-22.1-17.9-40-40-40H408zm-8 40c0-4.4 3.6-8 8-8h16c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H408c-4.4 0-8-3.6-8-8V216zM192 320c0 8.8 7.2 16 16 16v48c0 8.8 7.2 16 16 16s16-7.2 16-16V320c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm80 24v16c0 22.1 17.9 40 40 40h16c22.1 0 40-17.9 40-40V344c0-22.1-17.9-40-40-40H312c-22.1 0-40 17.9-40 40zm40-8h16c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H312c-4.4 0-8-3.6-8-8V344c0-4.4 3.6-8 8-8zm88-32c-8.8 0-16 7.2-16 16s7.2 16 16 16v48c0 8.8 7.2 16 16 16s16-7.2 16-16V320c0-8.8-7.2-16-16-16H400z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">High-Performance API Suite</h3>
+                <p class="mb-0">
+                  Scalable and well-documented APIs that expose real-time and historical blockchain data—built for integration with wallets, dApps, indexers, and analytics tools.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M493.1 192H352V50.9C423.5 64 480 120.5 493.1 192zM352 240H527.4c9 0 16.6-7 16.6-16C544 100.3 443.7 0 320 0c-9 0-16 7.6-16 16.6V192v48h48zM222.1 321.9L348.4 448.2C325 458.4 299.2 464 272 464C166 464 80 378 80 272c0-83.6 53.4-154.7 128-181.1V288c0 12.7 5.1 24.9 14.1 33.9zM239 34.3C122.1 50.3 32 150.7 32 272c0 132.5 107.5 240 240 240c51.8 0 99.8-16.4 139-44.3c7.7-5.5 8.2-16.5 1.5-23.1L256 288V49.6c0-9.2-7.8-16.6-17-15.4zM558.4 288H320L478.7 446.7c5.8 5.8 15.2 6.3 21.2 .7c39.3-36.7 66.2-86.5 73.9-142.3c1.3-9.2-6.1-17-15.4-17z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">On-Chain Analytics &amp; Dashboards</h3>
+                <p class="mb-0">Visual insights into network activity, gas usage, top contracts, token transfers, and more—designed to help users and teams understand what’s happening on-chain.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M204 413.5c-22.2 39.4-45.3 50.5-60 50.5s-37.8-11.1-60-50.5C62.7 375.6 48 320 48 256s14.7-119.6 36-157.5C106.2 59.1 129.3 48 144 48s37.8 11.1 60 50.5c21.3 37.9 36 93.5 36 157.5s-14.7 119.6-36 157.5zM0 256C0 397.4 64.5 512 144 512h48 64c70.7 0 128-114.6 128-256S326.7 0 256 0H192 144C64.5 0 0 114.6 0 256zm286.3 40c1.2-13 1.7-26.4 1.7-40s-.6-27-1.7-40h48c1.1 12.9 1.7 26.3 1.7 40s-.6 27.1-1.7 40h-48zm-4 32h48.1c-3.9 23.7-9.6 45.3-16.6 64H266c7-19.7 12.5-41.2 16.2-64zM228 464c9.1-11.6 17.4-25 24.7-40h46.5c-18.9 33.8-36.3 40-43.1 40H228zM330.3 184H282.2c-3.8-22.8-9.2-44.3-16.2-64h47.7c7 18.7 12.7 40.3 16.6 64zM299.1 88H252.7C245.3 73 237 59.6 228 48h28c6.8 0 24.2 6.2 43.1 40zM120 256c0-40.2 5.2-75.7 12.9-100.3c3.7-11.8 7.7-19.9 11.1-24.7c3.4 4.8 7.3 12.9 11.1 24.7c7.8 24.6 12.9 60 12.9 100.3s-5.2 75.7-12.9 100.3c-3.7 11.8-7.7 19.9-11.1 24.7c-3.4-4.8-7.3-12.9-11.1-24.7c-7.8-24.6-12.9-60-12.9-100.3zm27.4-128.8a.2 .2 0 1 0 .1 .4 .2 .2 0 1 0 -.1-.4zm-6.6 .1a.2 .2 0 1 0 -.5 .1 .2 .2 0 1 0 .5-.1zm-.2 257.4a.2 .2 0 1 0 -.1-.4 .2 .2 0 1 0 .1 .4zm6.6-.1a.2 .2 0 1 0 .5-.1 .2 .2 0 1 0 -.5 .1zM144 80c-17.7 0-30.3 11.3-37.9 21.6c-8 10.7-14.2 24.6-18.9 39.7C77.6 171.7 72 212.3 72 256s5.6 84.3 15.2 114.7c4.8 15.1 10.9 29 18.9 39.7c7.7 10.3 20.2 21.6 37.9 21.6s30.3-11.3 37.9-21.6c8-10.7 14.2-24.6 18.9-39.7c9.6-30.4 15.2-71 15.2-114.7s-5.6-84.3-15.2-114.7c-4.8-15.1-10.9-29-18.9-39.7C174.3 91.3 161.7 80 144 80z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">Token Metadata, Labels &amp; Name Tags</h3>
+                <p class="mb-0">Enriched off-chain data that adds human-readable context to raw blockchain addresses and hashes, improving transparency and usability.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M156 32C100.6 32 48.8 46.6 27.1 53.6C10.3 59 0 74.5 0 91.1V403.5c0 26.1 24 44.2 48 40.2c19.8-3.3 54.8-7.7 100-7.7c54 0 97.5 25.5 112.5 35.6c7.5 5 16.8 8.4 27 8.4c11.5 0 21.6-4.2 29.3-9.9C330.2 460.3 369.1 436 428 436c47.7 0 80.5 4 99 7.2c23.9 4.1 49-13.8 49-40.6V91.1c0-16.5-10.3-32.1-27.1-37.5C527.2 46.6 475.4 32 420 32c-36.8 0-71.8 6.4-97.4 12.7c-12.8 3.2-23.5 6.3-30.9 8.7c-1.3 .4-2.6 .8-3.7 1.2c-1.1-.4-2.4-.8-3.7-1.2c-7.5-2.4-18.1-5.5-30.9-8.7C227.8 38.4 192.8 32 156 32zM264 97.3V417.9C238 404.2 196.8 388 148 388c-42.9 0-77.4 3.7-100 7.1V97.3C70.3 90.6 112.4 80 156 80c31.6 0 62.6 5.6 85.9 11.3c8.6 2.1 16.1 4.2 22.1 6zm48 319.2V97.3c6-1.8 13.5-3.9 22.1-6C357.4 85.6 388.4 80 420 80c43.6 0 85.7 10.6 108 17.3V394.7c-21.7-3.3-54.9-6.7-100-6.7c-51.4 0-90.8 15-116 28.6z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">Smart Contract Interaction Interface</h3>
+                <p class="mb-0">A developer-friendly Read/Write UI to test, interact with, and call smart contracts directly—without needing to deploy custom tools.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+          <!-- Icon Block -->
+          <div class="col-sm-6">
+            <div class="d-flex flex-column justify-content-center border rounded-3 p-4 h-100">
+              <svg class="mb-5" width="24" height="24" fill="url(#grad1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="15%" style="stop-color:#8b5cf6; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#2563eb; stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <path d="M64 48H320c8.8 0 16 7.2 16 16V220.5c14.6-9.5 30.8-17 48-21.8V64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c3.3 0 6.6-.3 9.7-.7c-17.9-12.8-33.3-28.8-45.3-47.3H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16zm56 80c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm456 48a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L416 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z" />
+              </svg>
+
+              <div>
+                <h3 class="fs-default">Contract Verification &amp; Source Publishing</h3>
+                <p class="mb-0">Verify bytecode against published source code to ensure contract integrity. Make contracts accessible and auditable by your community.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+        </div>
+      </section>
+      <!-- End Icon Blocks -->
+      <!-- CTA -->
+      <section class="mb-12">
+        <div class="text-center mb-12">
+          <div class="text-muted mb-4">Trusted by millions</div>
+
+          <div class="d-flex flex-wrap justify-content-center align-items-center row-gap-6 column-gap-8">
+            <a href="https://etherscan.io/" target="_blank">
+              <img data-img-theme="light" width="110" src="assets/svg/logos-eaas/etherscan/logo.svg" alt="Etherscan">
+              <img data-img-theme="darkmode" width="110" src="assets/svg/logos-eaas/etherscan/logo-light.svg" alt="Etherscan">
+            </a>
+
+            <a href="https://bscscan.com/" target="_blank">
+              <img data-img-theme="light" width="90" src="assets/svg/logos-eaas/bscscan/logo.svg" alt="Bscan">
+              <img data-img-theme="darkmode" width="90" src="assets/svg/logos-eaas/bscscan/logo-light.svg" alt="Bscan">
+            </a>
+
+            <a href="https://sonicscan.org/" target="_blank">
+              <img data-img-theme="light" width="80" src="assets/svg/logos-eaas/sonic/logo.svg" alt="Sonic">
+              <img data-img-theme="darkmode" width="80" src="assets/svg/logos-eaas/sonic/logo-light.svg" alt="Sonic">
+            </a>
+
+            <a href="https://optimistic.etherscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/optimism/logo.svg" alt="Optimism">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/optimism/logo-light.svg" alt="Optimism">
+            </a>
+
+            <a href="https://polygonscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/polygonscan/logo.svg" alt="Polygonscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/polygonscan/logo-light.svg" alt="Polygonscan">
+            </a>
+
+            <a href="https://arbiscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/arbiscan/logo.svg" alt="Arbiscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/arbiscan/logo-light.svg" alt="Arbiscan">
+            </a>
+
+            <a href="https://moonbeam.moonscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/moonbeam/logo.svg" alt="Moonbeam">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/moonbeam/logo-light.svg" alt="Moonbeam">
+            </a>
+
+            <a href="https://moonriver.moonscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/moonriver/logo.svg" alt="Moonriver">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/moonriver/logo-light.svg" alt="Moonriver">
+            </a>
+
+            <a href="https://snowscan.xyz/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/snowscan/logo.svg" alt="Snowscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/snowscan/logo-light.svg" alt="Snowscan">
+            </a>
+
+            <a href="https://cronoscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/cronoscan/logo.svg" alt="Cronos">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/cronoscan/logo-light.svg" alt="Cronos">
+            </a>
+
+            <a href="https://bttcscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/bttcscan/logo.svg" alt="Bttcscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/bttcscan/logo-light.png" alt="Bttcscan">
+            </a>
+
+            <a href="https://celoscan.io/" target="_blank">
+              <img data-img-theme="light" width="80" src="assets/svg/logos-eaas/celoscan/logo.svg" alt="Celo">
+              <img data-img-theme="darkmode" width="80" src="assets/svg/logos-eaas/celoscan/logo-light.svg" alt="Celo">
+            </a>
+
+            <a href="https://gnosisscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/gnosis/logo.svg" alt="Gnosis">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/gnosis/logo-light.svg" alt="Gnosis">
+            </a>
+
+            <a href="https://aptoscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/aptoscan/logo.svg" alt="Aptoscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/aptoscan/logo-light.svg" alt="Aptoscan">
+            </a>
+
+            <a href="https://goerli.basescan.org/" target="_blank">
+              <img data-img-theme="light" width="90" src="assets/svg/logos-eaas/basescan/logo.svg" alt="BaseScan">
+              <img data-img-theme="darkmode" width="90" src="assets/svg/logos-eaas/basescan/logo-light.svg" alt="BaseScan">
+            </a>
+
+            <a href="https://zkevm.polygonscan.com/" target="_blank">
+              <img data-img-theme="light" width="140" src="assets/svg/logos-eaas/polygonscanzkevm/logo.svg" alt="Polygon zk EVM">
+              <img data-img-theme="darkmode" width="140" src="assets/svg/logos-eaas/polygonscanzkevm/logo-light.svg" alt="Polygon zk EVM">
+            </a>
+
+            <a href="https://lineascan.build/" target="_blank">
+              <img data-img-theme="light" width="70" src="assets/svg/logos-eaas/linea/logo.svg" alt="Linea">
+              <img data-img-theme="darkmode" width="70" src="assets/svg/logos-eaas/linea/logo-light.svg" alt="Linea">
+            </a>
+
+            <a href="https://sepolia.scrollscan.dev/" target="_blank">
+              <img data-img-theme="light" width="80" src="assets/svg/logos-eaas/scroll/logo.svg" alt="Scroll">
+              <img data-img-theme="darkmode" width="80" src="assets/svg/logos-eaas/scroll/logo-light.svg" alt="Scroll">
+            </a>
+
+            <a href="https://wemixscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/wemix/logo.svg" alt="WEMIX3.0">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/wemix/logo-light.svg" alt="WEMIX3.0">
+            </a>
+
+            <a href="https://era.zksync.network/" target="_blank">
+              <img data-img-theme="light" width="90" src="assets/svg/logos-eaas/zkSync/logo.svg" alt="zkSync">
+              <img data-img-theme="darkmode" width="90" src="assets/svg/logos-eaas/zkSync/logo-light.svg" alt="zkSync">
+            </a>
+
+            <a href="https://fraxscan.com/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/frax/logo.svg" alt="Fraxscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/frax/logo-light.svg" alt="Fraxscan">
+            </a>
+
+            <a href="https://solscan.io/" target="_blank">
+              <img data-img-theme="light" width="100" src="assets/svg/logos-eaas/solscan/logo.svg" alt="Solscan">
+              <img data-img-theme="darkmode" width="100" src="assets/svg/logos-eaas/solscan/logo-light.svg" alt="Solscan">
+            </a>
+
+            <a href="https://blastscan.io/" target="_blank">
+              <img data-img-theme="light" width="90" src="assets/svg/logos-eaas/blast/logo.svg" alt="Blast">
+              <img data-img-theme="darkmode" width="90" src="assets/svg/logos-eaas/blast/logo-light.svg" alt="Blast">
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center px-xxl-16">
+          <h2 class="fs-5 mb-2">Get the Explorer Your Users Need</h2>
+          <p>Our Explorer as a Service (EAAS) solution offers all the components required to deploy a high-performance, reliable, and insightful block explorer—custom-tailored to your network.</p>
+
+          <a class="btn btn-sm btn-primary rounded-pill p-2 px-3" target="_blank" href="https://etherscan.io/eaas">
+            Find Out More <i class="far fa-arrow-up-right ms-1"></i>
+          </a>
+        </div>
+      </section>
+      <!-- End CTA -->
+    </div>
+  </section>
+</main>
+<!-- ========== END MAIN CONTENT ========== -->
+
+
+
+    <footer class="d-print-none border-top py-4">
+      <div class="container-xxl">
+        <div class="row justify-content-between align-items-center fs-sm">
+          <div class="col-md mb-2 mb-md-0">
+            <div class="me-3">
+              <span>Blockscan © 2025</span>
+              <span class="text-secondary mx-1">|</span>
+              <span>Made with <i class="fas fa-heart text-danger"></i> by the team behind <a class="link-dark text-decoration-underline" title="Etherscan" href="https://etherscan.io/" target="_blank">Etherscan</a></span>
+            </div>
+          </div>
+
+          <div class="col-md-auto text-md-end">
+            <div class="d-flex flex-wrap align-items-center gap-2">
+              <a class="link-dark text-decoration-underline" title="Eaas" href="eaas.html">Eaas</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Terms" href="terms.html">Terms</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Policy" href="privacy-policy.html">Policy</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Donations" href="address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f.html">Donations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Cookie Alert -->
+  <div id="divcookie" style="display: none;" class="fixed-bottom text-center bg-opacity-75 filter-blur border-top">
+    <div class="alert text-start d-inline-flex align-items-center flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 m-0" role="alert">
+      <p class="text-dark mb-0">
+        <i class="far fa-cookie-bite text-muted"></i> This website <a href="terms.html#cookiestatement">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="terms.html">Terms</a> and <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+      <button type="button" class="btn btn-primary text-nowrap px-4" onclick="onclickConfirmCookies()">Got it</button>
+    </div>
+  </div>
+  <!-- End Cookie Alert -->
+
+  <!-- Modal: Create Bundle -->
+  <div class="modal fade" id="createBundleModal" tabindex="-1" aria-labelledby="createBundleModalLabel" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-center border-0 pb-0">
+          <h1 class="modal-title mb-0" id="createBundleModalLabel">Create New Group</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" tabindex="-1"></button>
+        </div>
+
+        <div class="modal-body bundle-container" data-max-items="10">
+          <div class="col-sm-10 mx-auto text-center d-flex flex-column align-items-center gap-2 mb-4">
+            <div class="bundle-container-image"></div>  
+            <h2 class="h5" data-bundle-name>&nbsp;</h2>
+            <p class="text-muted">Create a grouped portfolio to track multiple multichain addresses in a single view.</p>
+          </div>
+
+          <div class="mb-4">
+            <label for="createBundleName" class="form-label">Group Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control py-2 bundle-container-name" id="createBundleName" oninput="updateBundleName(event)" maxlength="30" value="My Group">
+            <div class="small text-muted mt-2">Max 30 characters</div>
+          </div>
+
+          <div class="mb-4">
+            <label for="createAddress" class="form-label">Add Address</label>
+
+            <div class="search-panel-container position-relative auto-search-max-height">
+              <input type="text" class="form-control px-8 py-2 shadow-none border rounded-2 bundle-search-input" id="createAddress" placeholder="Search for Address" style="border-radius: initial;" autocomplete="off">
+              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="far fa-search text-muted"></i>
+              </span>
+              <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex" 
+                style="right: 0.75rem; cursor:pointer;"
+                 aria-label="Clear search address">
+                <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label for="createAddress" class="form-label d-flex justify-content-between">
+              In the Group
+              <span class="counter text-muted">0/10 limit</span>
+            </label>
+          </div>
+
+          <div class="items-container overflow-y-auto" style="max-height: 15rem;"></div>
+
+          <!-- Empty State -->
+          <div class="bundle-empty-message" style="display: none;">
+            <div class="text-center border rounded py-10">
+              <div class="mb-4 d-flex justify-content-center">
+                <div class="content-center bg-light border rounded-circle p-3" style="height: 4rem; width: 4rem;">
+                  <i class="fal fa-box-open fs-3 text-muted"></i>
+                </div>
+              </div>
+              <div>Your Group is empty</div>
+              <div class="text-muted">Search and add address to get started</div>
+            </div>
+          </div>
+          <!-- End: Empty State -->
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary btn-create-bundle" onclick="modalAddBundle()">Create Group</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal: Create Bundle -->
+
+
+
+  <!-- JS Global Compulsory  ?v=0.0.5 -->
+  <script src="assets/vendor/jquery/dist/jquery.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.minbbe8.js?v=1.1.9315.20952"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/autocomplete/dist/js/autocomplete.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/jquery.dataTablesbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/dataTables.bootstrap5bbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/qrcode/qrcodebbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/clipboard/dist/clipboard.minbbe8.js?v=1.1.9315.20952"></script>
+      <script src="assets/js/custom/ether-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/blockies.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <!-- JS -->
+    <script src="app.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/js/app.minbbe8.js?v=1.1.9315.20952"></script>
+
+  
+
+
+
+  <script type="text/javascript">
+    window.imageVersion = "1.1.9315.20952";
+    document.addEventListener("DOMContentLoaded", function (event) {
+      initHeader();
+
+      let cookie = getCookie('multiblockscan_cookies');
+      if(!cookie) {
+        var divCookie = document.getElementById("divcookie").style.display = "block";
+      }
+
+      (function () {
+        // POPOVER
+        // =======================================================
+        const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        const myDefaultAllowList = bootstrap.Tooltip.Default.allowList;
+        myDefaultAllowList.img = ['src', 'srcset', 'alt', 'title', 'width', 'height', 'data-tokenalt'];
+        popoverTriggerList.map((el) => {
+          let opts = {
+            animation: true,
+            allowList: myDefaultAllowList
+          }
+          if (el.hasAttribute('data-bs-content-id')) {
+            opts.content = document.getElementById(el.getAttribute('data-bs-content-id'))
+              .innerHTML
+              .replace(/data-cfsrc/g, 'src')
+              .replace(/style="display:none;visibility:hidden;"/g, '');
+            opts.html = true;
+          }
+          new bootstrap.Popover(el, opts);
+          el.addEventListener('shown.bs.popover', function (a) {
+            genericImageErrorHandling();
+          });
+        })
+      })();
+
+      function getClientTimezoneOffset() {
+        return -(new Date().getTimezoneOffset() / 60);
+      }
+
+      setCookie('multiblockscan_timeoffset', getClientTimezoneOffset(), 365);
+    });
+
+    function onclickConfirmCookies() {
+      var divCookie = document.getElementById("divcookie");
+
+      var opacity = 1;
+      var fadeOut = setInterval(function () {
+        if (opacity <= 0.1) {
+          clearInterval(fadeOut);
+          divCookie.style.display = "none";
+          var d = new Date();
+          setCookie('multiblockscan_cookies', true, 1095);
+        }
+        divCookie.style.opacity = opacity;
+        opacity -= 0.1;
+      }, 50);
+    }
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+      // SEARCH
+      // =======================================================
+      etherSearchInit({
+        id: 'search-panel',
+        attributes: {
+          'name': 'title',
+          'img': 'img',
+          'rate': 'rate',
+          'address': 'address',
+          'group': 'group',
+          'groupid': 'groupid',
+          'is_verified': 'is_checked',
+          'link': 'link',
+          'website': 'website',
+          'is_featured': 'is_featured',
+          'reputation': 'reputation',
+          'chain_id': 'chainid',
+          'chain_name': 'chain_name',
+          'chain_name_long': 'chain_name_long',
+          'explorer_icon_light': 'explorer_icon_light',
+          'explorer_icon_dark': 'explorer_icon_dark',
+          'chain_icon' : 'chain_icon'
+        }
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      clipboardInitialize('.js-clipboard');
+      blockieImageInitialize();
+      genericImageErrorHandling();
+    });
+
+    window.addEventListener('pageshow', function () {
+      document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(tooltip => {
+        var tooltipInstance = bootstrap.Tooltip.getInstance(tooltip);
+        if (tooltipInstance) {
+          tooltipInstance.hide();
+        }
+      });
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      let age = getCookie('multiblockscan_date-format');
+      if(age) {
+        if (age === "utc") {
+          document.documentElement.setAttribute('data-date-format', 'utc');
+        } else {
+          document.documentElement.setAttribute('data-date-format', 'age');
+        }
+      }
+    });
+  </script>
+</body>
+
+<!-- Mirrored from blockscan.com/eaas by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:38:10 GMT -->
+</html>
+

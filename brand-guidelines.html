@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from blockscan.com/brand-guidelines by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:37:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="faviconbbe8.ico?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16bbe8.png?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32bbe8.png?v=1.1.9315.20952">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-iconbbe8.png?v=1.1.9315.20952">
+
+  
+  <title>Brand Guidelines | Blockscan Multichain Explorer</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:title" content="Blockscan — Multichain Explorer, Portfolio &amp; Analytics" />
+  <meta property="og:description" content="Explore Blockscan, your all-in-one multichain explorer for real-time data, portfolio balances, and in-depth analytics." />
+  <meta property="og:image" content="assets/img/og-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="index.html" />
+  <meta property="twitter:title" content="Blockscan — Multichain Explorer, Portfolio &amp; Analytics" />
+  <meta property="twitter:description" content="Explore Blockscan, your all-in-one multichain explorer for real-time data, portfolio balances, and in-depth analytics." />
+  <meta property="twitter:image" content="assets/img/og-preview.jpg" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5525RMQQCR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-5525RMQQCR');
+    </script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&amp;display=swap&amp;v=1.1.9315.20952" rel="stylesheet">
+
+  <!-- CSS Plugins -->
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/hs-mega-menu/dist/hs-mega-menu.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/datatables/css/dataTables.bootstrap5bbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/autocomplete/dist/css/autocomplete.minbbe8.css?v=1.1.9315.20952" />
+
+  <!-- CSS Theme -->
+  <link rel="stylesheet" href="assets/css/theme.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/rainbowkit/rainbowkitbbe8.css?v=1.1.9315.20952">
+  <!-- JS -->
+  <script src="assets/js/theme-appearancebbe8.js?v=1.1.9315.20952"></script>
+  <link rel="stylesheet" href="appbbe8.css?v=1.1.9315.20952" />
+  
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <div class="d-flex flex-column min-vh-100">
+
+    <header class="d-print-none js-sticky-header sticky-top bg-opacity-75 filter-blur py-0.5 ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+        <div class="container-xxl position-relative  gap-3 column-gap-12  ">
+          <a class="navbar-brand  position-relative" href="index.html">
+            <img width="150" data-img-theme="light" src="assets/svg/logobbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+            <img width="150" data-img-theme="darkmode" src="assets/svg/logo-lightbbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+
+            <span class="fs-sm">
+              <span class="position-absolute top-0 z-1 ms-1.5 translate-middle badge fw-medium small rounded-pill bg-danger text-white px-1.5" style="right: -3rem;">Beta</span>
+            </span>
+          </a>
+
+          <div class="d-flex justify-content-end align-items-center order-lg-3  gap-2">  
+              <div class="dropdown">
+                <span data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-original-title="Group">
+                  <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center position-relative" type="button" id="buttonMenuTopbarBundle" style="width: 2.375rem; height: 2.375rem;">
+                    <i class="far fa-folder-bookmark"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 bg-primary border border-light rounded-circle">
+                      <span class="visually-hidden">New alerts</span>
+                    </span>
+                  </button>
+                </span>
+                <div class="dropdown-menu dropdown-menu-end" style="min-width: 14rem;" id="dropdownMenuTopbarBundle" aria-labelledby="dropdownMenuTopbarBundle">
+                  <div class="d-flex align-items-center gap-2 py-1 px-3 mb-0.5">
+                    <div class="fw-medium">My Group List</div>
+                    <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                  </div>
+
+                  <ul id="bundleUnlist" class="list-unstyled overflow-y-auto scrollbar-custom mb-0" style="max-height: 15rem;" data-max-items="5">
+                  </ul>
+
+                  <hr class="my-1.5">
+
+                  <div id="bundleCreateJs"></div>
+                </div>
+              </div>
+
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 text-primary content-center" type="button" id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Theme" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                <li>
+                  <button type="button" class="dropdown-item active" data-bs-theme-value="light">
+                    <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dim">
+                    <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dark">
+                    <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Features" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-grid-2"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks" style="min-width: 15rem;">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://chat.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-message-lines"></i> Blockscan Chat
+                  </a>
+                </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="ecosystems.html">
+                      <i class="far fa-circle-nodes"></i> Ecosystems <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="cross-chain.html">
+                      <i class="far fa-archway"></i> Cross-Chain Transaction <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="headlines.html">
+                      <i class="far fa-newspaper"></i> Headlines
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="charts.html">
+                      <i class="far fa-chart-pie-simple"></i> Multichain Charts
+                    </a>
+                  </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://vscode.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-code"></i> VSCode IDE
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="brand-guidelines.html">
+                    <i class="far fa-shapes"></i> Brand Guidelines
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 group" href="feedback.html">
+                    <i class="far fa-comment-smile"></i> Share Feedback
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="app-landing.html">
+                    <i class="far fa-mobile"></i> Blockscan Mobile App
+                  </a>
+                </li>
+
+                <li>
+                  <hr class="my-0">
+                </li>
+
+                <li class="d-flex flex-wrap gap-1.5 pt-2 pb-1 px-2">
+                  <a class="fs-sm link-muted" href="https://twitter.com/BlockscanHQ" rel="nofollow" target="_blank">X (Twitter)</a>
+                  <span class="text-muted">•</span>
+                  <a class="fs-sm link-muted" href="contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+<form action="https://blockscan.com/Home/SearchAddress" class="search-panel-container position-relative auto-search-max-height bg-white border border-dark dark:border-white border-opacity-15 rounded-4 d-flex align-items-center order-lg-2 gap-2 w-100 w-lg-max-640" method="get">              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="fa-regular fa-search text-muted"></i>
+              </span>
+              <div class="flex-grow-1">
+                <label for="search-panel" class="visually-hidden">Search</label>
+                <input id="search-panel" name="searchAddress" type="text" class="form-control form-control-lg fs-default border-0 focus-shadow-0 rounded-pill pe-8 pe-md-16" placeholder="Search by Address, Transaction, Token" autocomplete="off" style="padding-inline: 2rem;">
+              </div>
+              <span class="shortcut-slash-icon align-items-center position-absolute top-0 bottom-0 align-items-center d-none d-sm-flex" title="Search" style="right: 0.5rem;">
+                <kbd class="bg-secondary bg-opacity-25 fw-semibold px-2 py-0.5 text-dark text-opacity-50">/</kbd>
+              </span>
+              <div class="d-flex align-items-center position-absolute top-0 bottom-0" style="right: 0.5rem;">
+                <span class="clear-icon d-none d-flex align-items-center my-auto me-1" title="Search" style="cursor:pointer;">
+                  <i class="fa-regular fa-xmark fs-5 text-secondary hover:text-muted"></i>
+                </span>
+
+                <span class="search-icon d-none btn btn-sm btn-secondary content-center my-auto ms-2" title="Search" style="right: 0.5rem; width: 1.5rem; height: 1.5rem; cursor: pointer;">
+                  <i class="fa-regular fa-arrow-turn-down-left text-muted"></i>
+                </span>
+              </div>
+</form>        </div>
+      </nav>
+
+    </header>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+    </div>
+    
+<!-- ========== MAIN CONTENT ========== -->
+<main id="main" class="content-center my-auto" style="min-height: 100%;" role="main">
+  <!-- Hero Content -->
+  <section class="container-xxl pt-5 pt-lg-10 pb-10">
+    <div class="col-md-10 col-lg-9 col-xl-7 col-xxl-6 mx-auto">
+      <div class="mb-10">
+        <h1 class="h3 mb-2">Brand Guidelines &amp; Assets</h1>
+        <p class="fs-default">Thank you for your support in using Blockscan. Below, we have provided a few guidelines for using our brand assets.</p>
+      </div>
+
+      <!-- Brand Name -->
+      <div class="mb-8">
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">01.</span> Brand Name
+        </h2>
+        <p>
+          <strong class="fw-medium">"Blockscan"</strong> is one word and spelled with a capital <strong class="fw-medium">B</strong>.
+        </p>
+      </div>
+      <!-- End Brand Name -->
+      <!-- Brand Guidelines -->
+      <div class="mb-8">
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">02.</span> Brand Guidelines
+        </h2>
+
+        <p>
+          You may use the <strong class="fw-medium">Blockscan</strong> name and logo in your website or app as long as you adhere to the <strong class="fw-medium">Blockscan</strong> branding guidelines.
+        </p>
+
+        <ul class="list-xs-space">
+          <li>Do not alter the Blockscan logo.</li>
+          <li>The logo is to be used as provided.</li>
+          <li>Do not combine Blockscan logo with other images without consent.</li>
+          <li>Do not use the Blockscan brand in any way that implies a relationship, affiliation, or endorsement. For example, "we partner with Blockscan."</li>
+          <li>Do reference Blockscan as follows: "Powered by Blockscan" "Data provided by Blockscan" "Source: Blockscan"</li>
+          <li>Do not use the Blockscan brand in conjunction with any illegal and unlawful activity, promotion, and product.</li>
+        </ul>
+      </div>
+      <!-- End Brand Guidelines -->
+      <!-- Downloads -->
+      <div class="mb-8">
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">03.</span> Downloads
+        </h2>
+        <p>
+          We like to keep things simple, so we have put together a package for the brand assets that you can download and use in your website or app.
+        </p>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="card overflow-hidden">
+              <div class="card-body dark:bg-white d-flex align-items-center justify-content-center" style="height: 220px;">
+                <img class="img-fluid mx-auto" style="max-width: 12rem;" src="assets/svg/brand-assets/blockscan-logo.svg" alt="logo">
+              </div>
+
+              <div class="card-footer">
+                <span class="small text-muted">.PNG &amp; .SVG</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card overflow-hidden">
+              <div class="card-body bg-dark d-flex align-items-center justify-content-center" style="height: 220px;">
+                <img class="img-fluid mx-auto" style="max-width: 12rem;" src="assets/svg/brand-assets/blockscan-logo-light.svg" alt="logo">
+              </div>
+
+              <div class="card-footer">
+                <span class="small text-muted">.PNG &amp; .SVG</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card overflow-hidden">
+              <div class="card-body dark:bg-white d-flex align-items-center justify-content-center" style="height: 220px;">
+                <img class="img-fluid mx-auto" style="max-width: 2.5rem;" src="assets/svg/brand-assets/blockscan-logo-symbol.svg" alt="logo">
+              </div>
+
+              <div class="card-footer">
+                <span class="small text-muted">.PNG &amp; .SVG</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card overflow-hidden">
+              <div class="card-body bg-dark d-flex align-items-center justify-content-center" style="height: 220px;">
+                <img class="img-fluid mx-auto" style="max-width: 2.5rem;" src="assets/svg/brand-assets/blockscan-logo-symbol-light.svg" alt="logo">
+              </div>
+
+              <div class="card-footer">
+                <span class="small text-muted">.PNG &amp; .SVG</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="brand-download" class="btn btn-primary w-100 py-2" >
+          <i class="far fa-download me-1"></i> Download Brand Assets
+        </button>
+      </div>
+      <!-- End Downloads -->
+      <!-- Typography -->
+      <div class="mb-8">
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">04.</span> Typography
+        </h2>
+        <p>
+          One of the most loved and widely used font styles, ensuring consistent readability and uniformity across all branding materials.
+        </p>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-center align-items-center gap-4 py-12">
+              <span class="display-4 fw-medium">Aa</span>
+              <div class="me-n1">
+                <div class="fs-3">Inter</div>
+                <div class="text-muted mt-n1">
+                  Designed by <a class="link-muted group" href="https://fonts.google.com/?query=Rasmus+Andersson&amp;preview.layout=grid" target="_blank">Rasmus Andersson <i class="far fa-arrow-up-right group-hover"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer d-flex justify-content-between align-items-center small text-muted gap-4 p-3">
+            <span>Font</span>
+            <a class="link-muted" href="https://fonts.google.com/specimen/Inter" target="_blank">
+              Google Fonts <i class="far fa-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Typography -->
+      <!-- Colors -->
+      <div class="mb-8">
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">05.</span> Colors
+        </h2>
+        <p>
+          Primary colors: blue, white, and black. These colors establish a consistent and recognizable brand identity across all materials and platforms
+        </p>
+
+        <div class="row g-4 mb-5">
+          <div class="col-md">
+            <div class="card overflow-hidden h-100">
+              <div class="card-body text-white fw-medium text-center py-12" style="background-color: #0F57FF;">Primary Blue</div>
+              <div class="card-footer d-flex justify-content-between align-items-center small font-monospace text-muted gap-4 p-3">
+                <span>HEX</span>
+                <span>#0F57FF</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card overflow-hidden h-100">
+              <div class="card-body fw-medium text-center py-12" style="background-color: #fff; color: #000;">White</div>
+              <div class="card-footer d-flex justify-content-between align-items-center small font-monospace text-muted gap-4 p-3">
+                <span>HEX</span>
+                <span>#ffffff</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card overflow-hidden h-100">
+              <div class="card-body text-white fw-medium text-center py-12" style="background-color: #000;">Black</div>
+              <div class="card-footer d-flex justify-content-between align-items-center small font-monospace text-muted gap-4 p-3">
+                <span>HEX</span>
+                <span>#000000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Colors -->
+      <!-- Agreement -->
+      <div>
+        <h2 class="fs-default d-flex flex-wrap align-items-center gap-1">
+          <span class="text-muted fs-sm">06.</span> Agreement
+        </h2>
+        <p>
+          By using our brand assets, you agree to adhere to our Branding Guidelines as well as our <a class="text-nowrap" href="terms.html">Terms and Conditions</a>. For further information about use of the Blockscan name that is not covered by the Branding Guidelines, please <a href="contact-us.html">Contact Us</a>.
+        </p>
+      </div>
+      <!-- End Agreement -->
+    </div>
+  </section>
+  <!-- End Hero Content -->
+</main>
+<!-- ========== END MAIN CONTENT ========== -->
+
+    <footer class="d-print-none border-top py-4">
+      <div class="container-xxl">
+        <div class="row justify-content-between align-items-center fs-sm">
+          <div class="col-md mb-2 mb-md-0">
+            <div class="me-3">
+              <span>Blockscan © 2025</span>
+              <span class="text-secondary mx-1">|</span>
+              <span>Made with <i class="fas fa-heart text-danger"></i> by the team behind <a class="link-dark text-decoration-underline" title="Etherscan" href="https://etherscan.io/" target="_blank">Etherscan</a></span>
+            </div>
+          </div>
+
+          <div class="col-md-auto text-md-end">
+            <div class="d-flex flex-wrap align-items-center gap-2">
+              <a class="link-dark text-decoration-underline" title="Eaas" href="eaas.html">Eaas</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Terms" href="terms.html">Terms</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Policy" href="privacy-policy.html">Policy</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Donations" href="address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f.html">Donations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Cookie Alert -->
+  <div id="divcookie" style="display: none;" class="fixed-bottom text-center bg-opacity-75 filter-blur border-top">
+    <div class="alert text-start d-inline-flex align-items-center flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 m-0" role="alert">
+      <p class="text-dark mb-0">
+        <i class="far fa-cookie-bite text-muted"></i> This website <a href="terms.html#cookiestatement">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="terms.html">Terms</a> and <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+      <button type="button" class="btn btn-primary text-nowrap px-4" onclick="onclickConfirmCookies()">Got it</button>
+    </div>
+  </div>
+  <!-- End Cookie Alert -->
+
+  <!-- Modal: Create Bundle -->
+  <div class="modal fade" id="createBundleModal" tabindex="-1" aria-labelledby="createBundleModalLabel" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-center border-0 pb-0">
+          <h1 class="modal-title mb-0" id="createBundleModalLabel">Create New Group</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" tabindex="-1"></button>
+        </div>
+
+        <div class="modal-body bundle-container" data-max-items="10">
+          <div class="col-sm-10 mx-auto text-center d-flex flex-column align-items-center gap-2 mb-4">
+            <div class="bundle-container-image"></div>  
+            <h2 class="h5" data-bundle-name>&nbsp;</h2>
+            <p class="text-muted">Create a grouped portfolio to track multiple multichain addresses in a single view.</p>
+          </div>
+
+          <div class="mb-4">
+            <label for="createBundleName" class="form-label">Group Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control py-2 bundle-container-name" id="createBundleName" oninput="updateBundleName(event)" maxlength="30" value="My Group">
+            <div class="small text-muted mt-2">Max 30 characters</div>
+          </div>
+
+          <div class="mb-4">
+            <label for="createAddress" class="form-label">Add Address</label>
+
+            <div class="search-panel-container position-relative auto-search-max-height">
+              <input type="text" class="form-control px-8 py-2 shadow-none border rounded-2 bundle-search-input" id="createAddress" placeholder="Search for Address" style="border-radius: initial;" autocomplete="off">
+              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="far fa-search text-muted"></i>
+              </span>
+              <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex" 
+                style="right: 0.75rem; cursor:pointer;"
+                 aria-label="Clear search address">
+                <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label for="createAddress" class="form-label d-flex justify-content-between">
+              In the Group
+              <span class="counter text-muted">0/10 limit</span>
+            </label>
+          </div>
+
+          <div class="items-container overflow-y-auto" style="max-height: 15rem;"></div>
+
+          <!-- Empty State -->
+          <div class="bundle-empty-message" style="display: none;">
+            <div class="text-center border rounded py-10">
+              <div class="mb-4 d-flex justify-content-center">
+                <div class="content-center bg-light border rounded-circle p-3" style="height: 4rem; width: 4rem;">
+                  <i class="fal fa-box-open fs-3 text-muted"></i>
+                </div>
+              </div>
+              <div>Your Group is empty</div>
+              <div class="text-muted">Search and add address to get started</div>
+            </div>
+          </div>
+          <!-- End: Empty State -->
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary btn-create-bundle" onclick="modalAddBundle()">Create Group</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal: Create Bundle -->
+
+
+
+  <!-- JS Global Compulsory  ?v=0.0.5 -->
+  <script src="assets/vendor/jquery/dist/jquery.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.minbbe8.js?v=1.1.9315.20952"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/autocomplete/dist/js/autocomplete.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/jquery.dataTablesbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/dataTables.bootstrap5bbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/qrcode/qrcodebbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/clipboard/dist/clipboard.minbbe8.js?v=1.1.9315.20952"></script>
+      <script src="assets/js/custom/ether-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/blockies.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <!-- JS -->
+    <script src="app.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/js/app.minbbe8.js?v=1.1.9315.20952"></script>
+
+  
+  <script type="text/javascript">
+    document.getElementById('brand-download').addEventListener('click', function () {
+    const url = 'assets/svg/brand-assets/logos.zip'; 
+    const fileName = 'Blockscan-Logos.html'; 
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+</script>
+
+
+  <script type="text/javascript">
+    window.imageVersion = "1.1.9315.20952";
+    document.addEventListener("DOMContentLoaded", function (event) {
+      initHeader();
+
+      let cookie = getCookie('multiblockscan_cookies');
+      if(!cookie) {
+        var divCookie = document.getElementById("divcookie").style.display = "block";
+      }
+
+      (function () {
+        // POPOVER
+        // =======================================================
+        const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        const myDefaultAllowList = bootstrap.Tooltip.Default.allowList;
+        myDefaultAllowList.img = ['src', 'srcset', 'alt', 'title', 'width', 'height', 'data-tokenalt'];
+        popoverTriggerList.map((el) => {
+          let opts = {
+            animation: true,
+            allowList: myDefaultAllowList
+          }
+          if (el.hasAttribute('data-bs-content-id')) {
+            opts.content = document.getElementById(el.getAttribute('data-bs-content-id'))
+              .innerHTML
+              .replace(/data-cfsrc/g, 'src')
+              .replace(/style="display:none;visibility:hidden;"/g, '');
+            opts.html = true;
+          }
+          new bootstrap.Popover(el, opts);
+          el.addEventListener('shown.bs.popover', function (a) {
+            genericImageErrorHandling();
+          });
+        })
+      })();
+
+      function getClientTimezoneOffset() {
+        return -(new Date().getTimezoneOffset() / 60);
+      }
+
+      setCookie('multiblockscan_timeoffset', getClientTimezoneOffset(), 365);
+    });
+
+    function onclickConfirmCookies() {
+      var divCookie = document.getElementById("divcookie");
+
+      var opacity = 1;
+      var fadeOut = setInterval(function () {
+        if (opacity <= 0.1) {
+          clearInterval(fadeOut);
+          divCookie.style.display = "none";
+          var d = new Date();
+          setCookie('multiblockscan_cookies', true, 1095);
+        }
+        divCookie.style.opacity = opacity;
+        opacity -= 0.1;
+      }, 50);
+    }
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+      // SEARCH
+      // =======================================================
+      etherSearchInit({
+        id: 'search-panel',
+        attributes: {
+          'name': 'title',
+          'img': 'img',
+          'rate': 'rate',
+          'address': 'address',
+          'group': 'group',
+          'groupid': 'groupid',
+          'is_verified': 'is_checked',
+          'link': 'link',
+          'website': 'website',
+          'is_featured': 'is_featured',
+          'reputation': 'reputation',
+          'chain_id': 'chainid',
+          'chain_name': 'chain_name',
+          'chain_name_long': 'chain_name_long',
+          'explorer_icon_light': 'explorer_icon_light',
+          'explorer_icon_dark': 'explorer_icon_dark',
+          'chain_icon' : 'chain_icon'
+        }
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      clipboardInitialize('.js-clipboard');
+      blockieImageInitialize();
+      genericImageErrorHandling();
+    });
+
+    window.addEventListener('pageshow', function () {
+      document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(tooltip => {
+        var tooltipInstance = bootstrap.Tooltip.getInstance(tooltip);
+        if (tooltipInstance) {
+          tooltipInstance.hide();
+        }
+      });
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      let age = getCookie('multiblockscan_date-format');
+      if(age) {
+        if (age === "utc") {
+          document.documentElement.setAttribute('data-date-format', 'utc');
+        } else {
+          document.documentElement.setAttribute('data-date-format', 'age');
+        }
+      }
+    });
+  </script>
+</body>
+
+<!-- Mirrored from blockscan.com/brand-guidelines by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:37:22 GMT -->
+</html>
+

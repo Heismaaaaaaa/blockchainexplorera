@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from blockscan.com/headlines by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:37:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="faviconbbe8.ico?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16bbe8.png?v=1.1.9315.20952">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32bbe8.png?v=1.1.9315.20952">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-iconbbe8.png?v=1.1.9315.20952">
+
+  
+  <title>Headlines | Blockscan Multichain Explorer</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:title" content="Blockscan — Multichain Explorer, Portfolio &amp; Analytics" />
+  <meta property="og:description" content="Explore Blockscan, your all-in-one multichain explorer for real-time data, portfolio balances, and in-depth analytics." />
+  <meta property="og:image" content="assets/img/og-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="index.html" />
+  <meta property="twitter:title" content="Blockscan — Multichain Explorer, Portfolio &amp; Analytics" />
+  <meta property="twitter:description" content="Explore Blockscan, your all-in-one multichain explorer for real-time data, portfolio balances, and in-depth analytics." />
+  <meta property="twitter:image" content="assets/img/og-preview.jpg" />
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5525RMQQCR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-5525RMQQCR');
+    </script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&amp;display=swap&amp;v=1.1.9315.20952" rel="stylesheet">
+
+  <!-- CSS Plugins -->
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/hs-mega-menu/dist/hs-mega-menu.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/datatables/css/dataTables.bootstrap5bbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/autocomplete/dist/css/autocomplete.minbbe8.css?v=1.1.9315.20952" />
+
+  <!-- CSS Theme -->
+  <link rel="stylesheet" href="assets/css/theme.minbbe8.css?v=1.1.9315.20952">
+  <link rel="stylesheet" href="assets/vendor/rainbowkit/rainbowkitbbe8.css?v=1.1.9315.20952">
+  <!-- JS -->
+  <script src="assets/js/theme-appearancebbe8.js?v=1.1.9315.20952"></script>
+  <link rel="stylesheet" href="appbbe8.css?v=1.1.9315.20952" />
+  
+  <link rel="stylesheet" href="assets/vendor/flatpickr/dist/flatpickr.minbbe8.css?v=1.1.9315.20952">
+  <style>
+    [data-bs-theme=light] .bg-gradient-card {
+      --bs-gradient-card-linear-gradient-from: #f2f6ff;
+      --bs-gradient-card-linear-gradient-to: 255, 255, 255;
+      background-image: linear-gradient(var(--bs-gradient-card-linear-gradient-from) 0%, rgba(var(--bs-gradient-card-linear-gradient-to), 0) 5rem);
+    }
+
+    [data-bs-theme=dim] .bg-gradient-card,
+    [data-bs-theme=dark] .bg-gradient-card {
+      --bs-gradient-card-linear-gradient-from: #252a33;
+      --bs-gradient-card-linear-gradient-to: 255, 255, 255;
+      background-image: linear-gradient(var(--bs-gradient-card-linear-gradient-from) 0%, rgba(var(--bs-gradient-card-linear-gradient-to), 0) 5rem);
+    }
+
+    .flatpickr-calendar {
+      box-shadow: none;
+    }
+
+    .flatpickr-current-month {
+      font-size: 1rem;
+    }
+
+    .flatpickr-prev-month,
+    .flatpickr-next-month {
+      padding-top: 0.25rem !important;
+      padding-bottom: 0.25rem !important;
+    }
+
+    .flatpickr-calendar span.flatpickr-weekday {
+      color: var(--bs-gray-700);
+      font-weight: 500;
+    }
+
+    .flatpickr-day.today {
+      border-color: var(--bs-gray-500);
+    }
+
+    .flatpickr-day.prevMonthDay.selected,
+    .flatpickr-day.nextMonthDay.selected {
+      color: #fff;
+    }
+
+    .flatpickr-months .flatpickr-prev-month:hover svg,
+    .flatpickr-months .flatpickr-next-month:hover svg {
+      fill: var(--bs-primary);
+    }
+
+    [data-bs-theme=dim] .flatpickr-calendar,
+    [data-bs-theme=dark] .flatpickr-calendar {
+      border: 0;
+      box-shadow: none;
+      background-color: var(--bs-gray-900);
+    }
+
+      [data-bs-theme=dim] .flatpickr-calendar span.flatpickr-weekday,
+      [data-bs-theme=dark] .flatpickr-calendar span.flatpickr-weekday {
+        color: var(--bs-gray-300);
+      }
+  </style>
+
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <div class="d-flex flex-column min-vh-100">
+
+    <header class="d-print-none js-sticky-header sticky-top bg-opacity-75 filter-blur py-0.5 ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+        <div class="container-xxl position-relative  gap-3 column-gap-12  ">
+          <a class="navbar-brand  position-relative" href="index.html">
+            <img width="150" data-img-theme="light" src="assets/svg/logobbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+            <img width="150" data-img-theme="darkmode" src="assets/svg/logo-lightbbe8.svg?v=1.1.9315.20952" alt="Blockscan Logo" />
+
+            <span class="fs-sm">
+              <span class="position-absolute top-0 z-1 ms-1.5 translate-middle badge fw-medium small rounded-pill bg-danger text-white px-1.5" style="right: -3rem;">Beta</span>
+            </span>
+          </a>
+
+          <div class="d-flex justify-content-end align-items-center order-lg-3  gap-2">  
+              <div class="dropdown">
+                <span data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-original-title="Group">
+                  <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center position-relative" type="button" id="buttonMenuTopbarBundle" style="width: 2.375rem; height: 2.375rem;">
+                    <i class="far fa-folder-bookmark"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 bg-primary border border-light rounded-circle">
+                      <span class="visually-hidden">New alerts</span>
+                    </span>
+                  </button>
+                </span>
+                <div class="dropdown-menu dropdown-menu-end" style="min-width: 14rem;" id="dropdownMenuTopbarBundle" aria-labelledby="dropdownMenuTopbarBundle">
+                  <div class="d-flex align-items-center gap-2 py-1 px-3 mb-0.5">
+                    <div class="fw-medium">My Group List</div>
+                    <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                  </div>
+
+                  <ul id="bundleUnlist" class="list-unstyled overflow-y-auto scrollbar-custom mb-0" style="max-height: 15rem;" data-max-items="5">
+                  </ul>
+
+                  <hr class="my-1.5">
+
+                  <div id="bundleCreateJs"></div>
+                </div>
+              </div>
+
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 text-primary content-center" type="button" id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Theme" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                <li>
+                  <button type="button" class="dropdown-item active" data-bs-theme-value="light">
+                    <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dim">
+                    <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item" data-bs-theme-value="dark">
+                    <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-lg btn-white border border-dark dark:border-white border-opacity-15 content-center" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Features" style="width: 2.375rem; height: 2.375rem;">
+                <i class="far fa-grid-2"></i>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks" style="min-width: 15rem;">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://chat.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-message-lines"></i> Blockscan Chat
+                  </a>
+                </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="ecosystems.html">
+                      <i class="far fa-circle-nodes"></i> Ecosystems <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="cross-chain.html">
+                      <i class="far fa-archway"></i> Cross-Chain Transaction <span class="badge rounded-pill text-bg-primary fw-normal">New</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="headlines.html">
+                      <i class="far fa-newspaper"></i> Headlines
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex align-items-center gap-2" href="charts.html">
+                      <i class="far fa-chart-pie-simple"></i> Multichain Charts
+                    </a>
+                  </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="https://vscode.blockscan.com/" rel="nofollow" target="_blank">
+                    <i class="far fa-code"></i> VSCode IDE
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="brand-guidelines.html">
+                    <i class="far fa-shapes"></i> Brand Guidelines
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 group" href="feedback.html">
+                    <i class="far fa-comment-smile"></i> Share Feedback
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2" href="app-landing.html">
+                    <i class="far fa-mobile"></i> Blockscan Mobile App
+                  </a>
+                </li>
+
+                <li>
+                  <hr class="my-0">
+                </li>
+
+                <li class="d-flex flex-wrap gap-1.5 pt-2 pb-1 px-2">
+                  <a class="fs-sm link-muted" href="https://twitter.com/BlockscanHQ" rel="nofollow" target="_blank">X (Twitter)</a>
+                  <span class="text-muted">•</span>
+                  <a class="fs-sm link-muted" href="contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+<form action="https://blockscan.com/Home/SearchAddress" class="search-panel-container position-relative auto-search-max-height bg-white border border-dark dark:border-white border-opacity-15 rounded-4 d-flex align-items-center order-lg-2 gap-2 w-100 w-lg-max-640" method="get">              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="fa-regular fa-search text-muted"></i>
+              </span>
+              <div class="flex-grow-1">
+                <label for="search-panel" class="visually-hidden">Search</label>
+                <input id="search-panel" name="searchAddress" type="text" class="form-control form-control-lg fs-default border-0 focus-shadow-0 rounded-pill pe-8 pe-md-16" placeholder="Search by Address, Transaction, Token" autocomplete="off" style="padding-inline: 2rem;">
+              </div>
+              <span class="shortcut-slash-icon align-items-center position-absolute top-0 bottom-0 align-items-center d-none d-sm-flex" title="Search" style="right: 0.5rem;">
+                <kbd class="bg-secondary bg-opacity-25 fw-semibold px-2 py-0.5 text-dark text-opacity-50">/</kbd>
+              </span>
+              <div class="d-flex align-items-center position-absolute top-0 bottom-0" style="right: 0.5rem;">
+                <span class="clear-icon d-none d-flex align-items-center my-auto me-1" title="Search" style="cursor:pointer;">
+                  <i class="fa-regular fa-xmark fs-5 text-secondary hover:text-muted"></i>
+                </span>
+
+                <span class="search-icon d-none btn btn-sm btn-secondary content-center my-auto ms-2" title="Search" style="right: 0.5rem; width: 1.5rem; height: 1.5rem; cursor: pointer;">
+                  <i class="fa-regular fa-arrow-turn-down-left text-muted"></i>
+                </span>
+              </div>
+</form>        </div>
+      </nav>
+
+    </header>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+    </div>
+    
+
+<!-- ========== MAIN CONTENT ========== -->
+<main id="main" class="content-center mb-auto" style="min-height: 100%;" role="main">
+  <!-- Hero Content -->
+  <section id="headlines-wrapper" class="container-xxl py-8 pb-14" data-chain="" data-audience="" data-category="">
+    <div class="col-sm-10 col-md-7 mx-auto">
+      <div class="text-center mb-6">
+        <h1 class="h3 mb-2">Headlines</h1>
+        <p class="fs-default">Explore latest curated news in the Blockchain space.</p>
+      </div>
+
+      <div class="d-flex  flex-wrap align-items-center gap-2 mb-2">
+        <!-- Chain Filter -->
+        <div class="dropdown">
+          <button class="btn btn-sm btn-white dropdown-toggle py-1.5 px-3" type="button" id="dropdownChains" data-bs-display="static" data-bs-auto-close="outside" data-bs-boundary="clippingParents" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="far fa-cube me-0.5"></i>
+            Chains
+            <span class="text-muted js-chain-count"></span>
+          </button>
+
+          <div id="availableChains" class="dropdown-menu p-1" aria-labelledby="dropdownChains">
+            <div class="overflow-y-auto scrollbar-custom" style="max-height: 18rem;">
+              <div class="sticky-top bg-white p-1">
+                <label class="position-relative" style="min-width: 14rem;">
+                  <span class="d-flex align-items-center position-absolute top-0 bottom-0" style="left: 0.5rem;">
+                    <i class="far fa-search fs-sm text-muted"></i>
+                  </span>
+                  <input type="search" class="search form-control form-control-sm py-1.5" placeholder="Search a chain" aria-controls="chain-table" style="padding-left: 1.75rem;">
+                </label>
+              </div>
+
+
+              <div class="list-not-found text-center py-16" style="display: none;">
+                <div class="mb-4">
+                  <span class="bg-secondary bg-opacity-10 border border-dark border-opacity-25 dark:border-white text-dark fs-70x content-center rounded-pill mx-auto" style="width: 3rem; height: 3rem;">
+                    <i class="fal fa-file-slash fs-5"></i>
+                  </span>
+                </div>
+                <p class="text-muted mb-0">Not found any matching data!</p>
+              </div>
+              <ul class="list list-unstyled mb-0" style="min-width: 13rem;">
+
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Ethereum" data-search="Ethereum (eth)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/eth.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Ethereum</span>
+                        <span class="text-muted text-uppercase list-symbol">(eth)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="BNB Chain" data-search="BNB Chain (bsc)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/bsc.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">BNB Chain</span>
+                        <span class="text-muted text-uppercase list-symbol">(bsc)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Polygon" data-search="Polygon (pol)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/pol.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Polygon</span>
+                        <span class="text-muted text-uppercase list-symbol">(pol)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Arbitrum One" data-search="Arbitrum One (arb)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/arb.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Arbitrum One</span>
+                        <span class="text-muted text-uppercase list-symbol">(arb)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Optimism" data-search="Optimism (op)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/optimism_32.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Optimism</span>
+                        <span class="text-muted text-uppercase list-symbol">(op)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Base" data-search="Base (base)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/base.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Base</span>
+                        <span class="text-muted text-uppercase list-symbol">(base)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="BTTC" data-search="BTTC (bttc)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/bttc.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">BTTC</span>
+                        <span class="text-muted text-uppercase list-symbol">(bttc)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Celo" data-search="Celo (celo)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/celo.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Celo</span>
+                        <span class="text-muted text-uppercase list-symbol">(celo)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Gnosis" data-search="Gnosis (xdai)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/gno.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Gnosis</span>
+                        <span class="text-muted text-uppercase list-symbol">(xdai)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Polygon zkEVM" data-search="Polygon zkEVM (zkevm)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/poly.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Polygon zkEVM</span>
+                        <span class="text-muted text-uppercase list-symbol">(zkevm)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Linea" data-search="Linea (linea)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/linea.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Linea</span>
+                        <span class="text-muted text-uppercase list-symbol">(linea)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Moonbeam" data-search="Moonbeam (glmr)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/glmr.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Moonbeam</span>
+                        <span class="text-muted text-uppercase list-symbol">(glmr)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Moonriver" data-search="Moonriver (movr)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/movr.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Moonriver</span>
+                        <span class="text-muted text-uppercase list-symbol">(movr)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Arbitrum Nova" data-search="Arbitrum Nova (arbnova)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/arbnova.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Arbitrum Nova</span>
+                        <span class="text-muted text-uppercase list-symbol">(arbnova)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Scroll" data-search="Scroll (scroll)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/scroll.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Scroll</span>
+                        <span class="text-muted text-uppercase list-symbol">(scroll)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Wemix" data-search="Wemix (wemix)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/wemix.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Wemix</span>
+                        <span class="text-muted text-uppercase list-symbol">(wemix)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Avax C-Chain" data-search="Avax C-Chain (avax)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/avax.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Avax C-Chain</span>
+                        <span class="text-muted text-uppercase list-symbol">(avax)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="zkSync Era" data-search="zkSync Era (zksync)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/zksync.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">zkSync Era</span>
+                        <span class="text-muted text-uppercase list-symbol">(zksync)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="opBNB" data-search="opBNB (opbnb)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/bsc.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">opBNB</span>
+                        <span class="text-muted text-uppercase list-symbol">(opbnb)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Frax Chain" data-search="Frax Chain (fraxtal)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/fraxtal.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Frax Chain</span>
+                        <span class="text-muted text-uppercase list-symbol">(fraxtal)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Blast Chain" data-search="Blast Chain (blast)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/blast.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Blast Chain</span>
+                        <span class="text-muted text-uppercase list-symbol">(blast)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Cronos" data-search="Cronos (cronos)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/cronos.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Cronos</span>
+                        <span class="text-muted text-uppercase list-symbol">(cronos)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Mantle" data-search="Mantle (mantle)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/mantle.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Mantle</span>
+                        <span class="text-muted text-uppercase list-symbol">(mantle)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Taiko" data-search="Taiko (taiko)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/taiko.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Taiko</span>
+                        <span class="text-muted text-uppercase list-symbol">(taiko)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Xai" data-search="Xai (xai)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/xai.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Xai</span>
+                        <span class="text-muted text-uppercase list-symbol">(xai)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="World" data-search="World (world)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/world.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">World</span>
+                        <span class="text-muted text-uppercase list-symbol">(world)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="XDC" data-search="XDC (xdc)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/xdc.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">XDC</span>
+                        <span class="text-muted text-uppercase list-symbol">(xdc)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Ape" data-search="Ape (ape)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/ape.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Ape</span>
+                        <span class="text-muted text-uppercase list-symbol">(ape)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Sophon" data-search="Sophon (sophon)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/sophon.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Sophon</span>
+                        <span class="text-muted text-uppercase list-symbol">(sophon)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Unichain" data-search="Unichain (unichain)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/uni.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Unichain</span>
+                        <span class="text-muted text-uppercase list-symbol">(unichain)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="MemeCore" data-search="MemeCore (memecore)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/memecore.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">MemeCore</span>
+                        <span class="text-muted text-uppercase list-symbol">(memecore)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Bera" data-search="Bera (bera)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/bera.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Bera</span>
+                        <span class="text-muted text-uppercase list-symbol">(bera)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Swell Chain" data-search="Swell Chain (swell)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/swell.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Swell Chain</span>
+                        <span class="text-muted text-uppercase list-symbol">(swell)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Sonic" data-search="Sonic (sonic)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/sonic.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Sonic</span>
+                        <span class="text-muted text-uppercase list-symbol">(sonic)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Abstract" data-search="Abstract (abstract)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/abstract.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Abstract</span>
+                        <span class="text-muted text-uppercase list-symbol">(abstract)</span>
+                      </span>
+
+                    </label>
+                  </li>
+                  <li class="px-1">
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input address-transaction-chain" type="checkbox" data-value="Solana" data-search="Solana (sol)" onchange="onClickChainItem(this)">
+                      <img width="16" src="https://images.blockscan.com/chain-logos/sol.svg" alt="Chain" />
+                      <span class="hash-tag text-truncate flex-grow-1">
+                        <span class="list-name">Solana</span>
+                        <span class="text-muted text-uppercase list-symbol">(sol)</span>
+                      </span>
+
+                    </label>
+                  </li>
+              </ul>
+            </div>
+            <hr class="my-2">
+
+            <div class="d-flex gap-1">
+              <button type="button" class="btn btn-sm btn-white w-100" onclick="resetFilterChain()">Reset</button>
+              <button type="button" class="btn btn-sm btn-primary w-100" onclick="applyPage();">Apply</button>
+            </div>
+          </div>
+        </div>
+        <!-- End Chain Filter -->
+        <!-- Category Filter -->
+        <div id="availableMore" class="dropdown">
+
+
+          <button class="btn btn-sm btn-white d-block dropdown-toggle py-1.5 px-3" type="button" id="dropdownFilters" data-bs-auto-close="outside" data-bs-boundary="clippingParents" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="far fa-filter-list me-0.5"></i> More
+            <span class="text-muted js-more-count">
+              
+            </span>
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownFilters" style="min-width: 12rem;">
+            <div class="d-flex align-items-center gap-1 fw-medium px-1.5 mb-1">
+              By Audience
+            </div>
+
+            <div class="overflow-y-auto scrollbar-custom mb-3" style="max-height: 16rem;">
+              <ul id="availableAudience" class="list-unstyled mb-3">
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Beginner" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Beginner
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Technical" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Technical
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Developer" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Developer
+                      </span>
+                    </label>
+                  </li>
+              </ul>
+
+              <div class="d-flex align-items-center gap-1 fw-medium px-1.5 mb-1">
+                By Category
+              </div>
+
+              <ul id="availableCategory" class="list-unstyled mb-0">
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Protocol" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Protocol
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="AI" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        AI
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Wallet" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Wallet
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="NFTs" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        NFTs
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="dropdown-item d-flex gap-1.5 px-2">
+                      <input class="js-list-item-checkbox form-check-input" type="checkbox" data-value="Airdrops" onchange="onClickMoreItem(this)">
+                      <span class="flex-grow-1">
+                        Airdrops
+                      </span>
+                    </label>
+                  </li>
+              </ul>
+            </div>
+
+            <hr class="my-2">
+
+            <div class="d-flex gap-1">
+              <button type="button" class="btn btn-sm btn-white w-100" onclick="resetFilterMore();">Reset</button>
+              <button type="button" class="btn btn-sm btn-primary w-100" onclick="applyPage();">Apply</button>
+            </div>
+          </div>
+        </div>
+        <!-- End Category Filter -->
+        <!-- Filter By Date -->
+        <div class="dropdown">
+          <button class="btn btn-sm btn-white d-block dropdown-toggle py-1.5 px-3" type="button" id="dropdownByDate" data-bs-auto-close="outside" data-bs-boundary="clippingParents" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="far fa-calendar me-0.5"></i> Filter by Date
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownByDate">
+            <div id="headlineDate"></div>
+
+            <hr class="my-2">
+
+            <div class="d-flex gap-1">
+              <button type="button" class="btn btn-sm btn-white w-100" onclick="resetFilterDate();">Reset</button>
+              <button type="button" class="btn btn-sm btn-primary w-100" onclick="applyPage();">Apply</button>
+            </div>
+          </div>
+        </div>
+        <!-- End Filter By Date -->
+
+
+      </div>
+
+      <div>
+            <ul class="card bg-gradient-card list-unstyled list-xs-space p-4 mb-4">
+              <li>
+                <div class="fw-medium mb-3">
+                  <i class="far fa-calendar me-1"></i> Jul. 15, 2025
+                </div>
+              </li>
+
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/coingecko/status/1945121221856911744">CoinGecko announces MCP hackathon to put crypto price data to work in your fav AI &amp; LLMS</a>
+                  <a class="fs-80x link-muted" href="https://x.com/coingecko/status/1945121221856911744" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@coingecko</span>
+                  </a>
+                </li>
+            </ul>
+            <ul class="card bg-gradient-card list-unstyled list-xs-space p-4 mb-4">
+              <li>
+                <div class="fw-medium mb-3">
+                  <i class="far fa-calendar me-1"></i> Jul. 14, 2025
+                </div>
+              </li>
+
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/rabby_io/status/1944729735986323924">Rabby Wallet now tracks your Hyperliquid balance</a>
+                  <a class="fs-80x link-muted" href="https://x.com/rabby_io/status/1944729735986323924" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@rabby_io</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/mlmabc/status/1944699807139778603">Sonnet BioTherapeutics, Inc. announces $HYPE treasury reserve strategy</a>
+                  <a class="fs-80x link-muted" href="https://x.com/mlmabc/status/1944699807139778603" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@mlmabc</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/aave/status/1944661485973602340">Aave achieves $50B in net deposits</a>
+                  <a class="fs-80x link-muted" href="https://x.com/aave/status/1944661485973602340" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@aave</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/OndoFinance/status/1944751424337801591">Ondo Finance acquires Strangelove to accelerate full-stack RWA platform development</a>
+                  <a class="fs-80x link-muted" href="https://x.com/OndoFinance/status/1944751424337801591" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@OndoFinance</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.theblock.co/post/362383/bitcoin-worlds-fifth-largest-asset">BTC becomes world&#x2019;s 5th-largest asset by market cap, surpassing Amazon as price hits $122k</a>
+                  <a class="fs-80x link-muted" href="https://www.theblock.co/post/362383/bitcoin-worlds-fifth-largest-asset" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.theblock.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.theblock.co/post/362388/bhutan-moves-bitcoin">Bhutan moves over $62 million in bitcoin to Binance in past four days of BTC rally: Arkham</a>
+                  <a class="fs-80x link-muted" href="https://www.theblock.co/post/362388/bhutan-moves-bitcoin" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.theblock.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://thedefiant.io/news/blockchains/hyperliquid-layer-1-gains-traction-as-tvl-grows-to-usd2-billion">HyperEVM gains traction as TVL grows to $2B</a>
+                  <a class="fs-80x link-muted" href="https://thedefiant.io/news/blockchains/hyperliquid-layer-1-gains-traction-as-tvl-grows-to-usd2-billion" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>thedefiant.io</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://thedefiant.io/news/tradfi-and-fintech/ripple-rlusd-stablecoin-passes-usd515-million-flips-trueusd">Ripple&#x2019;s RLUSD market cap passes $515M, flips TrueUSD</a>
+                  <a class="fs-80x link-muted" href="https://thedefiant.io/news/tradfi-and-fintech/ripple-rlusd-stablecoin-passes-usd515-million-flips-trueusd" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>thedefiant.io</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://thedefiant.io/news/defi/kamino-becomes-first-major-defi-lender-to-accept-tokenized-stocks-as-collateral">Kamino becomes first major defi lender to accept tokenized stocks as collateral</a>
+                  <a class="fs-80x link-muted" href="https://thedefiant.io/news/defi/kamino-becomes-first-major-defi-lender-to-accept-tokenized-stocks-as-collateral" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>thedefiant.io</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.theblock.co/post/362403/strategy-resumes-bitcoin-buys">Strategy resumes BTC buys, acquires 4,225 BTC for $472.5M</a>
+                  <a class="fs-80x link-muted" href="https://www.theblock.co/post/362403/strategy-resumes-bitcoin-buys" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.theblock.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://cointelegraph.com/news/genius-act-stablecoins-amendments-crypto-bills">US Crypto Week kicks off with &#x27;Dictator&#x27; stablecoin amendment on the table</a>
+                  <a class="fs-80x link-muted" href="https://cointelegraph.com/news/genius-act-stablecoins-amendments-crypto-bills" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>cointelegraph.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://cointelegraph.com/news/okx-joins-paxos-usdg-network-stablecoin">OKX joins Paxos&#x2019; USDG network as stablecoin push intensifies</a>
+                  <a class="fs-80x link-muted" href="https://cointelegraph.com/news/okx-joins-paxos-usdg-network-stablecoin" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>cointelegraph.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.bankless.com/read/pump-fun-pulls-500m-in-12-minutes">Pump.fun raises $500m in 12 minutes</a>
+                  <a class="fs-80x link-muted" href="https://www.bankless.com/read/pump-fun-pulls-500m-in-12-minutes" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.bankless.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://testinprod.notion.site/Sunnyside-Devnet-Updates-07-14-2308fc57f5468054b18fcbff31cc032c#2308fc57f54680059bdbe0c76cd02111">Sunnyside Labs released new findings from their benchmarking analysis of PeerDAS</a>
+                  <a class="fs-80x link-muted" href="https://testinprod.notion.site/Sunnyside-Devnet-Updates-07-14-2308fc57f5468054b18fcbff31cc032c#2308fc57f54680059bdbe0c76cd02111" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>testinprod.notion.site</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.prnewswire.com/news-releases/bitmine-immersion-now-holds-approximately-500-million-of-ethereum-to-advance-its-ethereum-treasury-strategy-302504282.html">BitMine Immersion now holds approximately $500 million of Ethereum</a>
+                  <a class="fs-80x link-muted" href="https://www.prnewswire.com/news-releases/bitmine-immersion-now-holds-approximately-500-million-of-ethereum-to-advance-its-ethereum-treasury-strategy-302504282.html" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.prnewswire.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/NasdaqBTCS/status/1944706335347478986">BTCS holds 29,122 ETH</a>
+                  <a class="fs-80x link-muted" href="https://x.com/NasdaqBTCS/status/1944706335347478986" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@NasdaqBTCS</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/arbitrum/status/1944820406692798781">Arbitrum integrates Farcaster ecosystem including Noice app, Clanker, 9lives, &amp; Bungee</a>
+                  <a class="fs-80x link-muted" href="https://x.com/arbitrum/status/1944820406692798781" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@arbitrum</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/MorphoLabs/status/1944758880678060525">Morpho hits $2B total deposits on Base</a>
+                  <a class="fs-80x link-muted" href="https://x.com/MorphoLabs/status/1944758880678060525" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@MorphoLabs</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/JustDeauIt/status/1944815390116470959">The ETH Report offers a 65-page analysis of Ethereum&#x27;s Q2-25 performance</a>
+                  <a class="fs-80x link-muted" href="https://x.com/JustDeauIt/status/1944815390116470959" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@JustDeauIt</span>
+                  </a>
+                </li>
+            </ul>
+            <ul class="card bg-gradient-card list-unstyled list-xs-space p-4 mb-4">
+              <li>
+                <div class="fw-medium mb-3">
+                  <i class="far fa-calendar me-1"></i> Jul. 13, 2025
+                </div>
+              </li>
+
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/LidoFinance/status/1944321865092100465">29% of the ETH supply is now staked</a>
+                  <a class="fs-80x link-muted" href="https://x.com/LidoFinance/status/1944321865092100465" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@LidoFinance</span>
+                  </a>
+                </li>
+            </ul>
+            <ul class="card bg-gradient-card list-unstyled list-xs-space p-4 mb-4">
+              <li>
+                <div class="fw-medium mb-3">
+                  <i class="far fa-calendar me-1"></i> Jul. 12, 2025
+                </div>
+              </li>
+
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://cointelegraph.com/news/binance-world-liberty-financial-stablecoin">Binance helped create World Liberty Financial stablecoin &#x2014; Report</a>
+                  <a class="fs-80x link-muted" href="https://cointelegraph.com/news/binance-world-liberty-financial-stablecoin" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>cointelegraph.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://decrypt.co/329838/solana-treasury-firm-upexi-raises-200-million-boost-sol-stash">Solana treasury firm Upexi raises $200 million to boost SOL stash</a>
+                  <a class="fs-80x link-muted" href="https://decrypt.co/329838/solana-treasury-firm-upexi-raises-200-million-boost-sol-stash" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>decrypt.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/ChristiaanDefi/status/1944038638968615302">The Pump.Fun ICO sold out in under a minute with 189 onchain accounts commiting $1M</a>
+                  <a class="fs-80x link-muted" href="https://x.com/ChristiaanDefi/status/1944038638968615302" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@ChristiaanDefi</span>
+                  </a>
+                </li>
+            </ul>
+            <ul class="card bg-gradient-card list-unstyled list-xs-space p-4 mb-4">
+              <li>
+                <div class="fw-medium mb-3">
+                  <i class="far fa-calendar me-1"></i> Jul. 11, 2025
+                </div>
+              </li>
+
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/ethereumfndn/status/1943719894924632440">ETH Time Capsule is inviting the whole ecosystem to leave a message for future builders</a>
+                  <a class="fs-80x link-muted" href="https://x.com/ethereumfndn/status/1943719894924632440" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@ethereumfndn</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/OlimpioCrypto/status/1943634991763648884">Perps exchange GMX&#x27;s exploiter returned funds</a>
+                  <a class="fs-80x link-muted" href="https://x.com/OlimpioCrypto/status/1943634991763648884" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@OlimpioCrypto</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://blockworks.co/news/solana-sandwich-attacks-down">Solana sandwich attacks &#x2018;way down&#x2019;: Anza&#x2019;s Max Resnick</a>
+                  <a class="fs-80x link-muted" href="https://blockworks.co/news/solana-sandwich-attacks-down" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>blockworks.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.theblock.co/post/362269/tether-to-sunset-usdt-on-five-legacy-blockchains-including-algorand-and-omni">Tether to sunset USDT on five legacy blockchains, including Algorand and Omni</a>
+                  <a class="fs-80x link-muted" href="https://www.theblock.co/post/362269/tether-to-sunset-usdt-on-five-legacy-blockchains-including-algorand-and-omni" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.theblock.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.theblock.co/post/362232/sharplink-buys-10000-ether-ethereum-foundation-treasury">SharpLink buys 10,000 ETH directly from EF, lifting value of treasury to over $558M</a>
+                  <a class="fs-80x link-muted" href="https://www.theblock.co/post/362232/sharplink-buys-10000-ether-ethereum-foundation-treasury" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.theblock.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://decrypt.co/329542/bitcoin-treasury-company-rumble-crypto-wallet-moonpay">Bitcoin treasury company Rumble to launch crypto wallet with MoonPay</a>
+                  <a class="fs-80x link-muted" href="https://decrypt.co/329542/bitcoin-treasury-company-rumble-crypto-wallet-moonpay" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>decrypt.co</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://btct.investorroom.com/2025-07-11-BTCT-Announces-Completion-of-1-Million-Ethereum-Strategic-Reserve">BTCT announces completion of&#x202F;$1&#x202F;million ETH strategic reserve</a>
+                  <a class="fs-80x link-muted" href="https://btct.investorroom.com/2025-07-11-BTCT-Announces-Completion-of-1-Million-Ethereum-Strategic-Reserve" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>btct.investorroom.com</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/turbahn/status/1943675662553989200">ZKsync introduces one-click smart wallets with Dynamic &amp; ZKsync SSO</a>
+                  <a class="fs-80x link-muted" href="https://x.com/turbahn/status/1943675662553989200" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@turbahn</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/eth_proofs/status/1943651609973596356">Ethproofs, L2BEAT for zkVMs, adds ZisK zkVM</a>
+                  <a class="fs-80x link-muted" href="https://x.com/eth_proofs/status/1943651609973596356" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@eth_proofs</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/erc4337/status/1943642857900036583">ERC4337.io releases updated documentation on Account Abstraction</a>
+                  <a class="fs-80x link-muted" href="https://x.com/erc4337/status/1943642857900036583" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@erc4337</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://x.com/InceptionLRT/status/1943659006486286535">The restaking protocol Inception, built on EigenLayer, sunsets its operation</a>
+                  <a class="fs-80x link-muted" href="https://x.com/InceptionLRT/status/1943659006486286535" target="_blank">
+                      <i class="fab fa-x-twitter small"></i>
+                    <span>@InceptionLRT</span>
+                  </a>
+                </li>
+                  <li>
+                    <hr class="my-2">
+                  </li>
+                <li class="d-flex align-items-center text-truncate gap-1.5">
+                  <a class="link-dark text-truncate" target="_blank" href="https://www.cls.cn/detail/2082099">Shanghai SASAC holds study session to discuss crypto, stablecoin develop &amp; applications</a>
+                  <a class="fs-80x link-muted" href="https://www.cls.cn/detail/2082099" target="_blank">
+                      <i class="far fa-link small"></i>
+                    <span>www.cls.cn</span>
+                  </a>
+                </li>
+            </ul>
+
+          <!-- Pagination -->
+          <nav aria-label="Table navigation">
+            <ul class="pagination pagination-sm mb-0">
+              <li class="page-item disabled ">
+                <a class="page-link" href="javascript:;" onclick="pageChange(1)">First</a>
+              </li>
+              <li class="page-item disabled">
+                <a class="page-link px-3" href="javascript:;" onclick="pageChange(0)" aria-label="Previous" data-toggle="tooltip" data-placement="top" title="Go to Previous">
+                  <span aria-hidden="true">
+                    <i class="fa fa-chevron-left small"></i>
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item disabled">
+                <span class="page-link text-nowrap">Page <span class="text-muted">1</span> of <span class="text-muted">54</span></span>
+              </li>
+              <li class="page-item ">
+                <a class="page-link px-3" href="javascript:;" onclick="pageChange(2)" aria-label="Next" data-toggle="tooltip" data-placement="top" title="Go to Next">
+                  <span aria-hidden="true">
+                    <i class="fa fa-chevron-right small"></i>
+                  </span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+              <li class="page-item  ">
+                <a class="page-link" href="javascript:;" onclick="pageChange(54)">Last</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End Pagination -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Content -->
+</main>
+<!-- ========== END MAIN CONTENT ========== -->
+
+    <footer class="d-print-none border-top py-4">
+      <div class="container-xxl">
+        <div class="row justify-content-between align-items-center fs-sm">
+          <div class="col-md mb-2 mb-md-0">
+            <div class="me-3">
+              <span>Blockscan © 2025</span>
+              <span class="text-secondary mx-1">|</span>
+              <span>Made with <i class="fas fa-heart text-danger"></i> by the team behind <a class="link-dark text-decoration-underline" title="Etherscan" href="https://etherscan.io/" target="_blank">Etherscan</a></span>
+            </div>
+          </div>
+
+          <div class="col-md-auto text-md-end">
+            <div class="d-flex flex-wrap align-items-center gap-2">
+              <a class="link-dark text-decoration-underline" title="Eaas" href="eaas.html">Eaas</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Terms" href="terms.html">Terms</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Policy" href="privacy-policy.html">Policy</a>
+              <span class="text-secondary fs-70x">|</span>
+              <a class="link-dark text-decoration-underline" title="Donations" href="address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f.html">Donations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Cookie Alert -->
+  <div id="divcookie" style="display: none;" class="fixed-bottom text-center bg-opacity-75 filter-blur border-top">
+    <div class="alert text-start d-inline-flex align-items-center flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 m-0" role="alert">
+      <p class="text-dark mb-0">
+        <i class="far fa-cookie-bite text-muted"></i> This website <a href="terms.html#cookiestatement">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="terms.html">Terms</a> and <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+      <button type="button" class="btn btn-primary text-nowrap px-4" onclick="onclickConfirmCookies()">Got it</button>
+    </div>
+  </div>
+  <!-- End Cookie Alert -->
+
+  <!-- Modal: Create Bundle -->
+  <div class="modal fade" id="createBundleModal" tabindex="-1" aria-labelledby="createBundleModalLabel" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-center border-0 pb-0">
+          <h1 class="modal-title mb-0" id="createBundleModalLabel">Create New Group</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" tabindex="-1"></button>
+        </div>
+
+        <div class="modal-body bundle-container" data-max-items="10">
+          <div class="col-sm-10 mx-auto text-center d-flex flex-column align-items-center gap-2 mb-4">
+            <div class="bundle-container-image"></div>  
+            <h2 class="h5" data-bundle-name>&nbsp;</h2>
+            <p class="text-muted">Create a grouped portfolio to track multiple multichain addresses in a single view.</p>
+          </div>
+
+          <div class="mb-4">
+            <label for="createBundleName" class="form-label">Group Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control py-2 bundle-container-name" id="createBundleName" oninput="updateBundleName(event)" maxlength="30" value="My Group">
+            <div class="small text-muted mt-2">Max 30 characters</div>
+          </div>
+
+          <div class="mb-4">
+            <label for="createAddress" class="form-label">Add Address</label>
+
+            <div class="search-panel-container position-relative auto-search-max-height">
+              <input type="text" class="form-control px-8 py-2 shadow-none border rounded-2 bundle-search-input" id="createAddress" placeholder="Search for Address" style="border-radius: initial;" autocomplete="off">
+              <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                <i class="far fa-search text-muted"></i>
+              </span>
+              <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex" 
+                style="right: 0.75rem; cursor:pointer;"
+                 aria-label="Clear search address">
+                <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label for="createAddress" class="form-label d-flex justify-content-between">
+              In the Group
+              <span class="counter text-muted">0/10 limit</span>
+            </label>
+          </div>
+
+          <div class="items-container overflow-y-auto" style="max-height: 15rem;"></div>
+
+          <!-- Empty State -->
+          <div class="bundle-empty-message" style="display: none;">
+            <div class="text-center border rounded py-10">
+              <div class="mb-4 d-flex justify-content-center">
+                <div class="content-center bg-light border rounded-circle p-3" style="height: 4rem; width: 4rem;">
+                  <i class="fal fa-box-open fs-3 text-muted"></i>
+                </div>
+              </div>
+              <div>Your Group is empty</div>
+              <div class="text-muted">Search and add address to get started</div>
+            </div>
+          </div>
+          <!-- End: Empty State -->
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary btn-create-bundle" onclick="modalAddBundle()">Create Group</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal: Create Bundle -->
+
+
+
+  <!-- JS Global Compulsory  ?v=0.0.5 -->
+  <script src="assets/vendor/jquery/dist/jquery.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.minbbe8.js?v=1.1.9315.20952"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/autocomplete/dist/js/autocomplete.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/jquery.dataTablesbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/datatables/js/dataTables.bootstrap5bbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/qrcode/qrcodebbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/vendor/clipboard/dist/clipboard.minbbe8.js?v=1.1.9315.20952"></script>
+      <script src="assets/js/custom/ether-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/blockies.minbbe8.js?v=1.1.9315.20952"></script>
+    <script src="assets/js/custom/ether-search-bundle.minbbe8.js?v=1.1.9315.20952"></script>
+    <!-- JS -->
+    <script src="app.minbbe8.js?v=1.1.9315.20952"></script>
+  <script src="assets/js/app.minbbe8.js?v=1.1.9315.20952"></script>
+
+  
+  <script src='assets/vendor/flatpickr/dist/flatpickrbbe8.js?v=1.1.9315.20952'></script>
+  <script src='assets/vendor/list.js/dist/listbbe8.js?v=1.1.9315.20952'></script>
+  <script type="text/javascript">
+    let datePicker;
+    (function () {
+      // FLATPICKR
+      // =======================================================
+
+      datePicker = flatpickr("#headlineDate", {
+        inline: true,
+        maxDate: "today"
+    
+              });
+            }) ();
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+      initChainDropDownSearch();
+    });
+
+    function getDropdownSelected(id) {
+      let selectedValues = [];
+      let checkboxes = document.querySelectorAll(id + ' input[type="checkbox"]');
+
+      for (let i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+          let v = checkboxes[i].dataset.value;
+          selectedValues.push(v);
+        }
+      }
+      return selectedValues.join(",");
+    }
+
+
+    function getChainSelected() {
+      return getDropdownSelected('#availableChains');
+    }
+
+    function getAudienceSelected() {
+      return getDropdownSelected('#availableAudience');
+    }
+
+    function getCategorySelected() {
+      return getDropdownSelected('#availableCategory');
+    }
+
+    function resetDate() {
+      datePicker.setDate('');
+    }
+
+    function resetAllFilter() {
+      window.location.href = `/headlines`;
+    }
+
+    function resetFilterChain() {
+      onDropDownResetNoParent(document.getElementById('availableChains'));
+      applyPage();
+    }
+
+    function resetFilterMore() {
+      onDropDownResetNoParent(document.getElementById('availableAudience'));
+      onDropDownResetNoParent(document.getElementById('availableCategory'));
+      applyPage();
+    }
+
+    function resetFilterDate() {
+      resetDate();
+      applyPage();
+    }
+
+    function applyPage() {
+      var chain = getChainSelected();
+      var category = getCategorySelected();
+      var audience = getAudienceSelected();
+
+      console.log(chain, category, audience);
+
+      var dt = datePicker.selectedDates[0];
+      var filterOn = dt === undefined ? "" : dateToLocalDate(new Date(dt));
+      window.location.href = `/headlines?chain=${chain}&category=${category}&audience=${audience}&filterOn=${filterOn}`;
+    }
+
+    function pageChange(pg) {
+      var chain = getChainSelected();
+      var wrapper = document.querySelector('#headlines-wrapper');
+      var chain = wrapper.dataset.chain;
+      var category = wrapper.dataset.category;
+      var audience = wrapper.dataset.audience;
+      var dt = datePicker.selectedDates[0];
+      var filterOn = dt === undefined ? "" : dateToLocalDate(new Date(dt));
+
+      window.location.href = `/headlines?chain=${chain}&category=${category}&audience=${audience}&filterOn=${filterOn}&pg=${pg}`;
+    }
+
+    function dateToLocalDate(date) {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');  // Months are 0-based, so +1
+      const day = String(date.getDate()).padStart(2, '0');
+
+      // Format as YYYY-MM-DD
+      return `${year}-${month}-${day}`;
+    }
+
+    function onClickChainItem(element) {
+      let parent = element.parentElement.parentElement.parentElement;
+      console.log(parent);
+      let chainSelected = parent.querySelectorAll('input[type="checkbox"]:checked');
+      let chainCount = document.querySelector('.js-chain-count');
+      chainCount.textContent = '(' + chainSelected.length + ')';
+    }
+
+    function onClickMoreItem(element) {
+      let parent = element.parentElement.parentElement.parentElement.parentElement.parentElement;
+      console.log(parent);
+      let chainSelected = parent.querySelectorAll('input[type="checkbox"]:checked');
+      let chainCount = document.querySelector('.js-more-count');
+      chainCount.textContent = '(' + chainSelected.length + ')';
+    }
+  </script>
+
+
+
+  <script type="text/javascript">
+    window.imageVersion = "1.1.9315.20952";
+    document.addEventListener("DOMContentLoaded", function (event) {
+      initHeader();
+
+      let cookie = getCookie('multiblockscan_cookies');
+      if(!cookie) {
+        var divCookie = document.getElementById("divcookie").style.display = "block";
+      }
+
+      (function () {
+        // POPOVER
+        // =======================================================
+        const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        const myDefaultAllowList = bootstrap.Tooltip.Default.allowList;
+        myDefaultAllowList.img = ['src', 'srcset', 'alt', 'title', 'width', 'height', 'data-tokenalt'];
+        popoverTriggerList.map((el) => {
+          let opts = {
+            animation: true,
+            allowList: myDefaultAllowList
+          }
+          if (el.hasAttribute('data-bs-content-id')) {
+            opts.content = document.getElementById(el.getAttribute('data-bs-content-id'))
+              .innerHTML
+              .replace(/data-cfsrc/g, 'src')
+              .replace(/style="display:none;visibility:hidden;"/g, '');
+            opts.html = true;
+          }
+          new bootstrap.Popover(el, opts);
+          el.addEventListener('shown.bs.popover', function (a) {
+            genericImageErrorHandling();
+          });
+        })
+      })();
+
+      function getClientTimezoneOffset() {
+        return -(new Date().getTimezoneOffset() / 60);
+      }
+
+      setCookie('multiblockscan_timeoffset', getClientTimezoneOffset(), 365);
+    });
+
+    function onclickConfirmCookies() {
+      var divCookie = document.getElementById("divcookie");
+
+      var opacity = 1;
+      var fadeOut = setInterval(function () {
+        if (opacity <= 0.1) {
+          clearInterval(fadeOut);
+          divCookie.style.display = "none";
+          var d = new Date();
+          setCookie('multiblockscan_cookies', true, 1095);
+        }
+        divCookie.style.opacity = opacity;
+        opacity -= 0.1;
+      }, 50);
+    }
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+      // SEARCH
+      // =======================================================
+      etherSearchInit({
+        id: 'search-panel',
+        attributes: {
+          'name': 'title',
+          'img': 'img',
+          'rate': 'rate',
+          'address': 'address',
+          'group': 'group',
+          'groupid': 'groupid',
+          'is_verified': 'is_checked',
+          'link': 'link',
+          'website': 'website',
+          'is_featured': 'is_featured',
+          'reputation': 'reputation',
+          'chain_id': 'chainid',
+          'chain_name': 'chain_name',
+          'chain_name_long': 'chain_name_long',
+          'explorer_icon_light': 'explorer_icon_light',
+          'explorer_icon_dark': 'explorer_icon_dark',
+          'chain_icon' : 'chain_icon'
+        }
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      clipboardInitialize('.js-clipboard');
+      blockieImageInitialize();
+      genericImageErrorHandling();
+    });
+
+    window.addEventListener('pageshow', function () {
+      document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(tooltip => {
+        var tooltipInstance = bootstrap.Tooltip.getInstance(tooltip);
+        if (tooltipInstance) {
+          tooltipInstance.hide();
+        }
+      });
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      let age = getCookie('multiblockscan_date-format');
+      if(age) {
+        if (age === "utc") {
+          document.documentElement.setAttribute('data-date-format', 'utc');
+        } else {
+          document.documentElement.setAttribute('data-date-format', 'age');
+        }
+      }
+    });
+  </script>
+</body>
+
+<!-- Mirrored from blockscan.com/headlines by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jul 2025 17:37:03 GMT -->
+</html>
+

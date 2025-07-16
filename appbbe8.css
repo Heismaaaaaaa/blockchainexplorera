@@ -1,0 +1,51 @@
+.is-loading > * {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.is-loading {
+    position: relative;
+}
+
+    .is-loading::after {
+        content: "";
+        position: absolute;
+        top: calc(50% - 25px);
+        left: calc(50% - 25px);
+        border: 0.25em solid #007bff;
+        border-right-color: transparent;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: -0.125em;
+        border-radius: 50%;
+        animation: 0.75s linear infinite spinner-border;
+    }
+
+html:not([data-date-format]) [data-dt-format=utc] {
+    display: none;
+}
+
+[data-date-format=age] [data-dt-format=utc] {
+    display: none;
+}
+
+[data-date-format=utc] [data-dt-format=age] {
+    display: none;
+}
+
+.datatable-form-control {
+    padding-left: 1.75rem;
+    width: 14rem !important;
+    margin-left: 0 !important;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .group-hover {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+    }
+}
